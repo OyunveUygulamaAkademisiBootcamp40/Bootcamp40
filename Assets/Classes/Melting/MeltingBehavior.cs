@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeltingManager : MonoBehaviour
+public class MeltingBehavior : MonoBehaviour
 {
     [SerializeField] private float meltingConstant = 10.0f;
 
@@ -22,15 +22,13 @@ public class MeltingManager : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   
-        CheckMinThicknessAboveZero();
-        
+    {
         if (DecreasingState)
         {
             DecreaseSize();
         }
         
-        
+        CheckMinThicknessAboveZero();
     }
 
     void DecreaseSize()
@@ -47,7 +45,6 @@ public class MeltingManager : MonoBehaviour
     void StopDecreasing()
     {
         DecreasingState = false;
-        
     }
     
     void CheckMinThicknessAboveZero()
