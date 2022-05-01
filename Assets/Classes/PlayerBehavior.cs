@@ -1,25 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class PlayerBehavior : MonoBehaviour
 {
-    [SerializeField] private float ForwardSpeed = 10.0f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public PathCreation.PathCreator pathCreator;
+    public PathCreation.EndOfPathInstruction end;
+    [SerializeField] public float speed = 10.0f;
+    float dstTravelled;
     void Update()
     {
-        MoveDirectionZ();
+        MoveonDirectionZ();
     }
 
-
-    void MoveDirectionZ()
+    void MoveonDirectionZ()
     {
-        transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + Time.deltaTime * ForwardSpeed);
+        dstTravelled += speed * Time.deltaTime;
+        transform.position = pathCreator.path.GetPointAtDistance(dstTravelled, end) + new Vector3(0,transform.localScale.y / 2.0f ,0);
+        transform.rotation = pathCreator.path.GetRotationAtDistance(dstTravelled, end);
     }
+
 }
