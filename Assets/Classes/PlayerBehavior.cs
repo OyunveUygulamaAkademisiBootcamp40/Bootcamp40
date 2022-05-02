@@ -5,20 +5,25 @@ using UnityEngine;
 
 public class PlayerBehavior : MonoBehaviour
 {
-    public PathCreation.PathCreator pathCreator;
-    public PathCreation.EndOfPathInstruction end;
-    [SerializeField] public float speed = 10.0f;
-    float dstTravelled;
-    void Update()
+    [SerializeField] private float XAxisMovementFactor = 5f;
+    [SerializeField] private float ZAxisMovementFactor = 5f;
+    private void Update()
     {
-        MoveonDirectionZ();
+        if (Input.GetKey(KeyCode.RightArrow) && transform.position.x < 4f)
+        {
+            transform.position = new Vector3(transform.position.x + XAxisMovementFactor * Time.deltaTime, transform.position.y, transform.position.z);
+        }
+        if (Input.GetKey(KeyCode.LeftArrow) && transform.position.x > -4f)
+        {
+            transform.position = new Vector3(transform.position.x - XAxisMovementFactor * Time.deltaTime, transform.position.y, transform.position.z);
+        }
+
+        Move();
     }
 
-    void MoveonDirectionZ()
+    void Move()
     {
-        dstTravelled += speed * Time.deltaTime;
-        transform.position = pathCreator.path.GetPointAtDistance(dstTravelled, end) + new Vector3(0,transform.localScale.y / 2.0f ,0);
-        transform.rotation = pathCreator.path.GetRotationAtDistance(dstTravelled, end);
+        transform.position = new Vector3(transform.position.x , transform.position.y, transform.position.z + ZAxisMovementFactor*Time.deltaTime);
     }
 
 }
