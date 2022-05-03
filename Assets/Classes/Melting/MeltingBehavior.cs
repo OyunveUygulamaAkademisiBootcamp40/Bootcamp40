@@ -53,7 +53,7 @@ public class MeltingBehavior : MonoBehaviour
         if (transform.localScale.y < 0)
         {
             StopDecreasing();
-            SceneManager.LoadScene("DefeatScene");
+            //SceneManager.LoadScene("DefeatScene");
         }
     }
 
