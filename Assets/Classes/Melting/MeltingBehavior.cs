@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MeltingBehavior : MonoBehaviour
 {
@@ -53,7 +52,6 @@ public class MeltingBehavior : MonoBehaviour
         if (transform.localScale.y < 0)
         {
             StopDecreasing();
-            //SceneManager.LoadScene("DefeatScene");
         }
     }
 
