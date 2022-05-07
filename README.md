@@ -1,6 +1,6 @@
 # **Takım İsmi**
 
-WH - 40 
+--WH - 40 
 
 # Ürün İle İlgili Bilgiler
 
@@ -18,15 +18,15 @@ WH - 40
 
 ## Ürün Açıklaması
 
-- Hyper Casual Mobil Oyun
+- Mobil 3D hyper-casual bir oyundur. 
 
 ## Ürün Özellikleri
 
-- 
+- Aranan kriterleri karşılaması için tüm özelliklerinin modüler ve geliştirilebilir olmasına karar verilmiştir. Bir platform üzerinde sürekli eriyen, hareket eden ve hayatına devam etmeye çalışan bir sörf tahtası yönetilmektedir. Toplanabilir öğeler, engeller ve temel bir yaşam mekaniği barındırmaktadır. Mobil cihazlar için tasarlanmaktadır.
 
 ## Hedef Kitle
 
-- Android ve IOS cihazlarına sahip günlük boş vakitlerini değerlendirmek isteyen oyuncular.
+- En az Android KitKat ve IOS 11 sürümlere sahip cihazlara sahip, günlük boş vakitlerini değerlendirmek isteyen oyuncular. Yolculuklarda meşgale arayan insanlar.
 
 
 ## Product Backlog URL
@@ -39,24 +39,27 @@ WH - 40
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 60
 
-- **Puan tamamlama mantığı**: 
+- **Puan tamamlama mantığı**: Ayrıştırdığımız puanlar, koşullara bağlı yahut başka tasklere bağlı tasklerin puanı daha yüksek verilmiştir. Önceliği daha yüksek verilmiştir. Bitirilmesi gereken 60 Puan ise temel olarak elimizde olması ve bitmesi gereken taskler için verilmiştir.
 
 - **Backlog düzeni ve Story seçimleri**: 
 
 
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
+- **Daily Scrum**: 
 
-- **Sprint board update**: Sprint board screenshotları: 
+- **Sprint board update**: Sprint board screenshotları: https://docs.google.com/document/d/13WSJ3dc7bRzrLN5Eiqv3EfWoyo6TfTUAkpo_2NQAqUk/edit?usp=sharing
 
 
-- **Ürün Durumu**: Ekran görüntüleri:
+- **Ürün Durumu**: Ekran görüntüleri: ![image](https://user-images.githubusercontent.com/95375876/167247570-354bc6a4-eb52-464a-a1fe-e0cc5abaddd7.png)
+- ![image](https://user-images.githubusercontent.com/95375876/167247589-05cefcc5-b5ff-4c29-b1a4-8c0767a60eeb.png)
+
+
 
 
 - **Sprint Review**: 
 
 
-- **Sprint Retrospective:**
+- **Sprint Retrospective:** https://docs.google.com/document/d/1j5tC_a3Wr1a3AGzqjtfR7UVwDoxXiUu6fKDYIEkhsxM/edit?usp=sharing
   - 
  
 
