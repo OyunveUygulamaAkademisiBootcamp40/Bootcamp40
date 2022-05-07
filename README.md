@@ -37,7 +37,7 @@ WH - 40
 
 - **Sprint Notları**: 
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 
+- **Sprint içinde tamamlanması tahmin edilen puan**: 60
 
 - **Puan tamamlama mantığı**: 
 
