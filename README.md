@@ -51,6 +51,8 @@
 - **Sprint board update**: Sprint board screenshotları:
 - ![image](https://user-images.githubusercontent.com/95375876/167297106-d1517d54-4e5e-4e7b-ba88-5f2344272f9f.png)
 - ![image](https://user-images.githubusercontent.com/95375876/167297120-20cc372e-fb57-4f2a-8d16-778df27a6142.png)
+- ![image](https://user-images.githubusercontent.com/95375876/167308481-a7f64ef4-892a-4f41-8baf-b13ff7136c4d.png)
+
 
 
 
