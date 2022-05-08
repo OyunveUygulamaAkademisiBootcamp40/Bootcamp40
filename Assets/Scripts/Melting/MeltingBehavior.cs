@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MeltingBehavior : MonoBehaviour
+public class MeltingBehavior : PlayerBehavior
 {
-    [SerializeField] private float meltingConstant = 10.0f;
+    [SerializeField] public float meltingConstant = 10.0f;
 
-    private bool DecreasingState = true;
+    private bool DecreasingState = false;
     
         // Start is called before the first frame update
     void Start()
@@ -23,13 +23,18 @@ public class MeltingBehavior : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         if (DecreasingState)
         {
             DecreaseSize();
         }
         
         CheckMinThicknessAboveZero();
+
+        if (gameIsStarted && !DecreasingState && !gameIsFinished)
+        {
+            DecreasingState = true;
+        }
     }
 
     void DecreaseSize()
@@ -53,6 +58,7 @@ public class MeltingBehavior : MonoBehaviour
         if (transform.localScale.y < 0)
         {
             StopDecreasing();
+            gameIsFinished = true;
             //SceneManager.LoadScene("DefeatScene");
         }
     }
