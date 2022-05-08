@@ -32,6 +32,7 @@
 ## Product Backlog URL
 
 --- https://alpeen.atlassian.net/jira/software/projects/WH40/boards/1
+---https://docs.google.com/spreadsheets/d/1COv5F8pxELcA8KU8HPD6DSd-RF_b-kb0DCYc8FAw7LY/edit?usp=sharing
 
 # Sprint 1
 
@@ -52,6 +53,10 @@
 - ![image](https://user-images.githubusercontent.com/95375876/167297106-d1517d54-4e5e-4e7b-ba88-5f2344272f9f.png)
 - ![image](https://user-images.githubusercontent.com/95375876/167297120-20cc372e-fb57-4f2a-8d16-778df27a6142.png)
 - ![image](https://user-images.githubusercontent.com/95375876/167308481-a7f64ef4-892a-4f41-8baf-b13ff7136c4d.png)
+- ![image](https://user-images.githubusercontent.com/95375876/167315635-0bedb538-fba5-4c0b-8d8d-5d0ef6fec999.png)
+- ![image](https://user-images.githubusercontent.com/95375876/167315644-e6aaca42-54f1-492f-a1f2-99819290b6b5.png) (Sprintin son günü entegre etme ve tüm takımı eşitleme organizasyonu olduğu için done pozisyonuna ani bir iniş gerçekleşmiştir. Tamamlanmayan issue'lar 2. sprinte ertelenmiş olup genel chart üzerinde etki yükseltilmiştir.)
+
+
 
 
 
