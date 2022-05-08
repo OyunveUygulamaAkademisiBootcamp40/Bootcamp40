@@ -65,7 +65,7 @@
 - **Ekip Toplantıları**: https://docs.google.com/document/d/1j5tC_a3Wr1a3AGzqjtfR7UVwDoxXiUu6fKDYIEkhsxM/edit
 
 
-- **Sprint Retrospective:** 
+- **Sprint Retrospective:** https://docs.google.com/document/d/1_jt8cu8LXUvt-eNERWmr_wxnbMvx3eqooPGQH2yogQQ/edit?usp=sharing
   - 
  
 
