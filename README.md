@@ -46,9 +46,9 @@
 
 
 
-- **Daily Scrum**: 
+- **Daily Scrum**: https://docs.google.com/document/d/13WSJ3dc7bRzrLN5Eiqv3EfWoyo6TfTUAkpo_2NQAqUk/edit?usp=sharing
 
-- **Sprint board update**: Sprint board screenshotları: https://docs.google.com/document/d/13WSJ3dc7bRzrLN5Eiqv3EfWoyo6TfTUAkpo_2NQAqUk/edit?usp=sharing
+- **Sprint board update**: Sprint board screenshotları:
 - ![image](https://user-images.githubusercontent.com/95375876/167297106-d1517d54-4e5e-4e7b-ba88-5f2344272f9f.png)
 - ![image](https://user-images.githubusercontent.com/95375876/167297120-20cc372e-fb57-4f2a-8d16-778df27a6142.png)
 
@@ -62,8 +62,10 @@
 
 - **Sprint Review**: https://docs.google.com/document/d/1tfCAFb28_rntB1-kxkZdz2IgDOP1NQpxpaXLbwwajTk/edit?usp=sharing
 
+- **Ekip Toplantıları**: https://docs.google.com/document/d/1j5tC_a3Wr1a3AGzqjtfR7UVwDoxXiUu6fKDYIEkhsxM/edit
 
-- **Sprint Retrospective:** https://docs.google.com/document/d/1j5tC_a3Wr1a3AGzqjtfR7UVwDoxXiUu6fKDYIEkhsxM/edit?usp=sharing
+
+- **Sprint Retrospective:** 
   - 
  
 
