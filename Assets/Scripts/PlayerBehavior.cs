@@ -16,7 +16,13 @@ public class PlayerBehavior : MonoBehaviour
     [SerializeField] private float XAxisMovementFactor = 5f;
     [SerializeField] private float ZAxisMovementFactor = 5f;
     
+    InputManager inputManager = new InputManager();
     
+    private void Start()
+    {
+        
+    }
+
     private void Update()
     {
         GetInput();
@@ -35,21 +41,23 @@ public class PlayerBehavior : MonoBehaviour
 
     void GetInput()
     {
-
-        if (Input.GetKey(KeyCode.RightArrow) && transform.position.x < 4f)
+        if(inputManager.getInput() != 0)
         {
-            moveRight = true;
-            if (!gameIsStarted)
+            if (inputManager.getInput() > 0 )
             {
-                StartLevel();
+                moveRight = true;
+                if (!gameIsStarted)
+                    {
+                        StartLevel();
+                    }
             }
-        }
-        else if (Input.GetKey(KeyCode.LeftArrow) && transform.position.x > -4f)
-        {
-            moveLeft = true;
-            if (!gameIsStarted)
+            else if (inputManager.getInput() < 0)
             {
-                StartLevel();
+                moveLeft = true;
+                if (!gameIsStarted)
+                    {
+                        StartLevel();
+                    }
             }
         }
         else
@@ -63,11 +71,11 @@ public class PlayerBehavior : MonoBehaviour
 
     void MoveDirectionX()
     {
-        if (moveLeft && !gameIsFinished)
+        if (moveLeft && !gameIsFinished && transform.position.x > -4f)
         {
             transform.position = new Vector3(transform.position.x - XAxisMovementFactor * Time.deltaTime, transform.position.y, transform.position.z);
         }
-        if (moveRight && !gameIsFinished)
+        if (moveRight && !gameIsFinished && transform.position.x < 4f)
         {
             transform.position = new Vector3(transform.position.x + XAxisMovementFactor * Time.deltaTime, transform.position.y, transform.position.z);
         }
