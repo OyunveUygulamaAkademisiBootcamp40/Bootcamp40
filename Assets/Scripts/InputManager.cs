@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class InputManager
 {
-    private float mouseFirstPositionX;
+    private static float mouseFirstPositionX;
+
     public float getInput()
-    {
+    {   
         setOrigin();
+        
         return getDifferencefromNewPositiontoOldPosition();
     }
 

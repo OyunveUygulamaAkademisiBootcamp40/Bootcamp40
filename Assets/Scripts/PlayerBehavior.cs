@@ -23,12 +23,18 @@ public class PlayerBehavior : MonoBehaviour
         
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         GetInput();
+    }
+
+    private void Update()
+    {
+        
         
         MoveDirectionZ();
         MoveDirectionX();
+        
     }
 
     void MoveDirectionZ()
@@ -40,33 +46,35 @@ public class PlayerBehavior : MonoBehaviour
     }
 
     void GetInput()
-    {
-        if(inputManager.getInput() != 0)
-        {
-            if (inputManager.getInput() > 0 )
+    {       
+            if (inputManager.getInput() > 0.0f)
             {
                 moveRight = true;
+                moveLeft = false;
                 if (!gameIsStarted)
                     {
                         StartLevel();
                     }
+                
             }
-            else if (inputManager.getInput() < 0)
+            else if (inputManager.getInput() < 0.0f)
             {
                 moveLeft = true;
+                moveRight = false;
                 if (!gameIsStarted)
                     {
                         StartLevel();
                     }
             }
-        }
-        else
-        {
+            else
+            {
             moveLeft = false;
             moveRight = false;
-        }
+            }
+            
+            
 
-        
+
     }
 
     void MoveDirectionX()
