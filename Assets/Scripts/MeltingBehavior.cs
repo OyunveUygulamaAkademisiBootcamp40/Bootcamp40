@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MeltingBehavior : PlayerBehavior
+
+public class MeltingBehavior : MonoBehaviour
 {
     [SerializeField] public float meltingConstant = 10.0f;
 
@@ -31,7 +32,7 @@ public class MeltingBehavior : PlayerBehavior
         
         CheckMinThicknessAboveZero();
 
-        if (gameIsStarted && !DecreasingState && !gameIsFinished)
+        if (Player.gameIsStarted && !DecreasingState && !Player.gameIsFinished)
         {
             DecreasingState = true;
         }
@@ -41,11 +42,12 @@ public class MeltingBehavior : PlayerBehavior
     {
         transform.localScale =
             new Vector3(transform.localScale.x, transform.localScale.y-Time.deltaTime*meltingConstant, transform.localScale.z);
+        ProgressBar.DecreseProgressInTime();
     }
 
     void NormalizePlayerPosition()
     {
-        transform.position = new Vector3(transform.position.x, transform.localScale.y / 2, transform.position.z);
+       transform.position = new Vector3(transform.position.x, transform.localScale.y / 2, transform.position.z);
     }
 
     void StopDecreasing()
@@ -58,7 +60,7 @@ public class MeltingBehavior : PlayerBehavior
         if (transform.localScale.y < 0)
         {
             StopDecreasing();
-            gameIsFinished = true;
+            Player.gameIsFinished = true;
             //SceneManager.LoadScene("DefeatScene");
         }
     }
