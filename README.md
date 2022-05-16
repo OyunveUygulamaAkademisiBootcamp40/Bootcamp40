@@ -77,6 +77,44 @@
 ---
 
 # Sprint 2
+- **Sprint Notları**: 
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 80
+
+- **Puan tamamlama mantığı**: Ayrıştırdığımız puanlar, koşullara bağlı yahut başka tasklere bağlı tasklerin puanı daha yüksek verilmiştir. Önceliği daha yüksek verilmiştir. Bitirilmesi gereken 60 Puan ise temel olarak elimizde olması ve bitmesi gereken taskler için verilmiştir.
+
+- **Backlog düzeni ve Story seçimleri**: ![image](https://user-images.githubusercontent.com/95375876/167297172-985cd608-cb51-47b8-a051-b21283652525.png)
+- Sadece task seçimleri yapılmış olup, taskler takım üyelerinin ilgi alanına ve isteklerine göre dağıtılmıştır. Takım üyeleri, board'u sürekli güncel tutup ekleme ve çıkarmaları rapor etmiştir.
+
+
+
+- **Daily Scrum**: 
+
+- **Sprint board update**: Sprint board screenshotları:
+
+
+
+
+
+- **Ürün Durumu**: Ekran görüntüleri: ![image](https://user-images.githubusercontent.com/95375876/167247570-354bc6a4-eb52-464a-a1fe-e0cc5abaddd7.png)
+- ![image](https://user-images.githubusercontent.com/95375876/167247589-05cefcc5-b5ff-4c29-b1a4-8c0767a60eeb.png)
+
+
+
+
+- **Sprint Review**: https://docs.google.com/document/d/1tfCAFb28_rntB1-kxkZdz2IgDOP1NQpxpaXLbwwajTk/edit?usp=sharing
+
+- **Ekip Toplantıları**: https://docs.google.com/document/d/1j5tC_a3Wr1a3AGzqjtfR7UVwDoxXiUu6fKDYIEkhsxM/edit
+
+
+- **Sprint Retrospective:** https://docs.google.com/document/d/1_jt8cu8LXUvt-eNERWmr_wxnbMvx3eqooPGQH2yogQQ/edit?usp=sharing
+  - 
+ 
+
+-**Diğer Notlar**:
+- N/A
+
+---
 
 
 ---
