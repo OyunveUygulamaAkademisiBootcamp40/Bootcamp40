@@ -18,7 +18,7 @@
 
 ## Ürün Açıklaması
 
-- Mobil 3D hyper-casual bir oyundur. 
+- Mobil 3D hyper-casual bir oyundur. Oyun üzerinde kontrol ettiğimiz buzan bir sörf tahtası yer almaktadı. Sörf tahtamız zamana bağlı olarak erimektedir. Süre bitmeden bitiş çizgisini geçmek gerekmektedir. Level içerisinde buz tahtasını eriten flame throwerlar, lav çukurları bulunmaktadır. Aynı zamanda tahtamızı yeniden donduran kar parçaları ve ice throwerlar bulunmaktadır.
 
 ## Ürün Özellikleri
 
@@ -77,6 +77,42 @@
 ---
 
 # Sprint 2
+- **Sprint Notları**: 
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 80
+
+- **Puan tamamlama mantığı**: Ayrıştırdığımız puanlar, koşullara bağlı yahut başka tasklere bağlı tasklerin puanı daha yüksek verilmiştir. Önceliği daha yüksek verilmiştir. Bitirilmesi gereken 60 Puan ise temel olarak elimizde olması ve bitmesi gereken taskler için verilmiştir.
+
+- **Backlog düzeni ve Story seçimleri**: ![image](https://user-images.githubusercontent.com/95375876/167297172-985cd608-cb51-47b8-a051-b21283652525.png)
+- Sadece task seçimleri yapılmış olup, taskler takım üyelerinin ilgi alanına ve isteklerine göre dağıtılmıştır. Takım üyeleri, board'u sürekli güncel tutup ekleme ve çıkarmaları rapor etmiştir.
+
+
+
+- **Daily Scrum**: 
+
+- **Sprint board update**: Sprint board screenshotları:
+
+
+
+
+
+- **Ürün Durumu**: Ekran görüntüleri: 
+
+
+
+- **Sprint Review**: https://docs.google.com/document/d/1tfCAFb28_rntB1-kxkZdz2IgDOP1NQpxpaXLbwwajTk/edit?usp=sharing
+
+- **Ekip Toplantıları**: https://docs.google.com/document/d/1j5tC_a3Wr1a3AGzqjtfR7UVwDoxXiUu6fKDYIEkhsxM/edit
+
+
+- **Sprint Retrospective:** https://docs.google.com/document/d/1_jt8cu8LXUvt-eNERWmr_wxnbMvx3eqooPGQH2yogQQ/edit?usp=sharing
+  - 
+ 
+
+-**Diğer Notlar**:
+- N/A
+
+---
 
 
 ---
