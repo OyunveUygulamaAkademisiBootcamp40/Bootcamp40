@@ -7,6 +7,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public GameObject _tutorialManger;
     public static bool gameIsStarted = false;
     public static bool gameIsFinished = false;
     private bool moveLeft = false;
@@ -43,6 +44,7 @@ public class Player : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, transform.position.y,
                 transform.position.z + ZAxisMovementFactor * Time.deltaTime);
+            _tutorialManger.SetActive(false);
         }
     }
 
@@ -86,13 +88,14 @@ public class Player : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x - XAxisMovementFactor * Time.deltaTime,
                 transform.position.y, transform.position.z);
-
+            _tutorialManger.SetActive(false);
         }
 
         if (moveRight && !gameIsFinished && transform.position.x < 4f)
         {
             transform.position = new Vector3(transform.position.x + XAxisMovementFactor * Time.deltaTime,
                 transform.position.y, transform.position.z);
+            _tutorialManger.SetActive(false);
         }
     }
 
