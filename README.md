@@ -96,9 +96,7 @@
 
 
 
-- **Ürün Durumu**: Ekran görüntüleri: ![image](https://user-images.githubusercontent.com/95375876/167247570-354bc6a4-eb52-464a-a1fe-e0cc5abaddd7.png)
-- ![image](https://user-images.githubusercontent.com/95375876/167247589-05cefcc5-b5ff-4c29-b1a4-8c0767a60eeb.png)
-
+- **Ürün Durumu**: Ekran görüntüleri: 
 
 
 
