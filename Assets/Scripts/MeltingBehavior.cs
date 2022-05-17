@@ -42,7 +42,6 @@ public class MeltingBehavior : MonoBehaviour
     {
         transform.localScale =
             new Vector3(transform.localScale.x, transform.localScale.y-Time.deltaTime*meltingConstant, transform.localScale.z);
-        ProgressBar.DecreseProgressInTime();
     }
 
     void NormalizePlayerPosition()

@@ -4,37 +4,43 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEditorInternal;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Player : MonoBehaviour
+public class Player : ProgressController
 {
     public GameObject _tutorialManger;
     public static bool gameIsStarted = false;
     public static bool gameIsFinished = false;
     private bool moveLeft = false;
     private bool moveRight = false;
-    private ProgressBar _progressBar = new ProgressBar();
     [SerializeField] private float XAxisMovementFactor = 5f;
     [SerializeField] private float ZAxisMovementFactor = 5f;
 
+    public static float decreasingProgressFactorInTime = .08f;
+    
     InputManager inputManager = new InputManager();
+
+   public Slider slider;
 
     private void Start()
     {
-
+        _tutorialManger.SetActive(true);
+        progress = 100.0f;
+        setSliderValue();
     }
 
     private void FixedUpdate()
-    {
+    {   
         GetInput();
     }
 
     private void Update()
-    {
-
-
+    { 
+        DecreseProgressInTime();
+        setSliderValue();
         MoveDirectionZ();
         MoveDirectionX();
-        MoveProgressBar();
+        //MoveProgressBar(); Todo(baris)
 
     }
 
@@ -76,10 +82,6 @@ public class Player : MonoBehaviour
             moveLeft = false;
             moveRight = false;
         }
-
-
-
-
     }
 
     void MoveDirectionX()
@@ -121,7 +123,13 @@ public class Player : MonoBehaviour
     {
 
     }
-
-
-
+    
+    private void setSliderValue()
+    {
+        slider.value = progress;
+    }
+    protected void DecreseProgressInTime()
+    {
+        progress -= decreasingProgressFactorInTime;
+    }
 }
