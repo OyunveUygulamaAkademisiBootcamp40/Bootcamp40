@@ -131,6 +131,10 @@ public class Player : ProgressController
         {
             progress += 500.0f;
         }
+        else if (other.tag == "FlameCannon")
+        {
+            progress -= 300.0f;
+        }
     }
 
     void MoveProgressBar()
