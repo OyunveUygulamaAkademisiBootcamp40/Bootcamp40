@@ -16,32 +16,38 @@ public class Player : ProgressController
     [SerializeField] private float XAxisMovementFactor = 5f;
     [SerializeField] private float ZAxisMovementFactor = 5f;
 
-    public static float decreasingProgressFactorInTime = .08f;
+    public static float decreasingProgressFactorInTime = 2.0f;
     
     InputManager inputManager = new InputManager();
+    
 
    public Slider slider;
 
     private void Start()
     {
         _tutorialManger.SetActive(true);
-        progress = 100.0f;
+        progress = 1000.0f;
         setSliderValue();
     }
 
     private void FixedUpdate()
     {   
-        GetInput();
-    }
-
-    private void Update()
-    { 
-        DecreseProgressInTime();
         setSliderValue();
+        if (gameIsStarted && !gameIsFinished)
+        {
+            DecreseProgressInTime();
+        }
+    }
+    
+    private void Update()
+    {   
+        
+        
+        
         MoveDirectionZ();
         MoveDirectionX();
         //MoveProgressBar(); Todo(baris)
-
+        GetInput();
     }
 
     void MoveDirectionZ()
@@ -117,6 +123,14 @@ public class Player : ProgressController
         {
             EndLevel();
         }
+        else if (other.tag == "SnowFlake")
+        {
+            progress += 300.0f;
+        }
+        else if (other.tag == "SnowCanon")
+        {
+            progress += 500.0f;
+        }
     }
 
     void MoveProgressBar()
@@ -132,4 +146,6 @@ public class Player : ProgressController
     {
         progress -= decreasingProgressFactorInTime;
     }
+
+    
 }
