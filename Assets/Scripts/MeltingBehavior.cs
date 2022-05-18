@@ -10,57 +10,47 @@ public class MeltingBehavior : MonoBehaviour
     [SerializeField] public float meltingConstant = 10.0f;
 
     private bool DecreasingState = false;
-    
+    private float FirstScaleY;
+
+    private static float progressInMelting;
         // Start is called before the first frame update
     void Start()
     {
-        
+        FirstScaleY = transform.localScale.y;
     }
 
     private void FixedUpdate()
     {
+        progressInMelting = FreezingProgress.getProgress();
+        DecreaseBoardScaleAcordingToProgress(progressInMelting);
         NormalizePlayerPosition();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {   
-        if (DecreasingState)
-        {
-            DecreaseSize();
-        }
         
-        CheckMinThicknessAboveZero();
-
-        if (Player.gameIsStarted && !DecreasingState && !Player.gameIsFinished)
-        {
-            DecreasingState = true;
-        }
     }
-
-    void DecreaseSize()
-    {
-        transform.localScale =
-            new Vector3(transform.localScale.x, transform.localScale.y-Time.deltaTime*meltingConstant, transform.localScale.z);
-    }
-
+    
     void NormalizePlayerPosition()
     {
        transform.position = new Vector3(transform.position.x, transform.localScale.y / 2, transform.position.z);
     }
 
-    void StopDecreasing()
+    public void DecreaseBoardScaleAcordingToProgress(float progress)
     {
-        DecreasingState = false;
-    }
-    
-    void CheckMinThicknessAboveZero()
-    {
-        if (transform.localScale.y < 0)
+        if (progress > 999)
         {
-            StopDecreasing();
+            transform.localScale =
+                new Vector3(transform.localScale.x, FirstScaleY, transform.localScale.z);
+        }
+        else if (progress < 1)
+        {
+            transform.localScale =
+                new Vector3(transform.localScale.x, 0 , transform.localScale.z);
+            gameObject.SetActive(false);
             Player.gameIsFinished = true;
-            //SceneManager.LoadScene("DefeatScene");
+        }
+        else
+        {
+            float newLocalScaleY = progress * (FirstScaleY) / 1000f;
+            transform.localScale =
+                new Vector3(transform.localScale.x, newLocalScaleY , transform.localScale.z);
         }
     }
 
