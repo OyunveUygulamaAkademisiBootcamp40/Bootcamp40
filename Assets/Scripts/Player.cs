@@ -137,6 +137,14 @@ public class Player : ProgressController
         }
     }
 
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "Lava")
+        {
+            progress -= 2 * decreasingProgressFactorInTime;
+        }
+    }
+
     void MoveProgressBar()
     {
 

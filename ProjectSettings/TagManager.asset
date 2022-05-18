@@ -8,6 +8,7 @@ TagManager:
   - SnowFlake
   - SnowCanon
   - FlameCannon
+  - Lava
   layers:
   - Default
   - TransparentFX
