@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class FreezingProgress : MonoBehaviour
 {
-    protected float progress = 100.0f;
+    public static float progress = 1000.0f;
     public Image fill;
     
 
@@ -17,7 +17,7 @@ public class FreezingProgress : MonoBehaviour
         progress = newProgress;
     }
 
-    protected float getProgress()
+    public static float getProgress()
     {
         return progress;
     }
