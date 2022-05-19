@@ -41,7 +41,7 @@ PlayerSettings:
     height: 1
   m_SplashScreenLogos:
   - logo: {fileID: 21300000, guid: 84c0d027885c1534b818f57b4668f3e4, type: 3}
-    duration: 2
+    duration: 3
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
@@ -337,7 +337,7 @@ PlayerSettings:
       m_SubKind: 
     - m_Textures:
       - {fileID: 2800000, guid: 66e96db390a4f054b865671c1efb7062, type: 3}
-      - {fileID: 2800000, guid: d4d7817a7cde80948b9f5f7aefff99c4, type: 3}
+      - {fileID: 2800000, guid: 56232f859180e4a4eaf57d281ac95cd9, type: 3}
       m_Width: 432
       m_Height: 432
       m_Kind: 2
