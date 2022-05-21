@@ -1,6 +1,6 @@
 # **Takım İsmi**
 
---WH - 40 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=70&color=13D0F7&background=3400FFA4&center=true&vCenter=true&height=60&lines=WH-40)](https://git.io/typing-svg)
 
 # Ürün İle İlgili Bilgiler
 
