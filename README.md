@@ -97,7 +97,11 @@
 
 
 
-- **Ürün Durumu**: Ekran görüntüleri: 
+- **Ürün Durumu**: Ekran görüntüleri: ![image](https://user-images.githubusercontent.com/95375876/169662773-947f1550-598f-424c-87b7-6dc2f8e3b023.png)
+![image](https://user-images.githubusercontent.com/95375876/169662796-9249f0f6-9270-4f24-8a94-e55244b9fc6c.png)
+![image](https://user-images.githubusercontent.com/95375876/169662809-a733a2df-0d0b-4eae-99d4-69866567c10f.png)
+![image](https://user-images.githubusercontent.com/95375876/169662823-ba53c155-0c7e-4934-a558-a874d21c4743.png)
+
 
 
 
