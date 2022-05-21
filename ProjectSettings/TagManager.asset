@@ -9,6 +9,8 @@ TagManager:
   - SnowCanon
   - FlameCannon
   - Lava
+  - Magnet
+  - CoinDetector
   layers:
   - Default
   - TransparentFX

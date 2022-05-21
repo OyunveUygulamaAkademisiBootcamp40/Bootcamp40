@@ -133,7 +133,7 @@ public class Player : ProgressController
         }
         else if (other.tag == "FlameCannon")
         {
-            progress -= 300.0f;
+            progress -= 100.0f;
         }
     }
 
