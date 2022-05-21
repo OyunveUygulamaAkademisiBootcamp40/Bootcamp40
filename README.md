@@ -35,11 +35,11 @@
 
 # Sprint 1
 
-- **Sprint Notları**: 
+- **Sprint Notları**: Birinci sprintte oynanabilir bir sürüm elde etmek hedeflendi. Bayram sebebiyle bu hedef 2. sprinte ertelendi. Assetler ve tema oturtuldu. Mekanikler tasarlandı.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 60
 
-- **Puan tamamlama mantığı**: Ayrıştırdığımız puanlar, koşullara bağlı yahut başka tasklere bağlı tasklerin puanı daha yüksek verilmiştir. Önceliği daha yüksek verilmiştir. Bitirilmesi gereken 60 Puan ise temel olarak elimizde olması ve bitmesi gereken taskler için verilmiştir.
+- **Puan tamamlama mantığı**: Ayrılan tasklerdeki puanlamalar, tasklerin bağımlılık durumuna göre puanlandırılmıştır. Bu sprintte Özellikle mekanikler olmadan tasarımlar ve genel oynanış hazırlanmıştır. Bu sebeple görevlerin puanları durumlara göre dağıtılmıştır.
 
 - **Backlog düzeni ve Story seçimleri**: ![image](https://user-images.githubusercontent.com/95375876/167297172-985cd608-cb51-47b8-a051-b21283652525.png)
 - Sadece task seçimleri yapılmış olup, taskler takım üyelerinin ilgi alanına ve isteklerine göre dağıtılmıştır. Takım üyeleri, board'u sürekli güncel tutup ekleme ve çıkarmaları rapor etmiştir.
@@ -77,20 +77,21 @@
 ---
 
 # Sprint 2
-- **Sprint Notları**: 
+- **Sprint Notları**: Sprint 1'de hedeflenmiş olan oynanabilir sürüm etme hedefi başarıldı. Genel hatlarıyla özgün bir deneyim yaşatan oyun buildi alındı. 
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 80
 
-- **Puan tamamlama mantığı**: Ayrıştırdığımız puanlar, koşullara bağlı yahut başka tasklere bağlı tasklerin puanı daha yüksek verilmiştir. Önceliği daha yüksek verilmiştir. Bitirilmesi gereken 60 Puan ise temel olarak elimizde olması ve bitmesi gereken taskler için verilmiştir.
+- **Puan tamamlama mantığı**:  Ayrılan tasklerdeki puanlamalar, tasklerin bağımlılık durumuna göre puanlandırılmıştır. Bu sprintte Özellikle mekanikler olmadan tasarımlar ve genel oynanış hazırlanmıştır. Bu sebeple görevlerin puanları durumlara göre dağıtılmıştır. Bu sprintte özellikle bazı taskler gerçekleşmeden diğer taskler'e geçilmediği için en yüksek puanlar bağımlılık yaratan tasklerin olmuştur.
 
 - **Backlog düzeni ve Story seçimleri**: ![image](https://user-images.githubusercontent.com/95375876/167297172-985cd608-cb51-47b8-a051-b21283652525.png)
 - Sadece task seçimleri yapılmış olup, taskler takım üyelerinin ilgi alanına ve isteklerine göre dağıtılmıştır. Takım üyeleri, board'u sürekli güncel tutup ekleme ve çıkarmaları rapor etmiştir.
 
 
+- **Daily Scrum**: https://docs.google.com/document/d/13WSJ3dc7bRzrLN5Eiqv3EfWoyo6TfTUAkpo_2NQAqUk/edit?usp=sharing
 
-- **Daily Scrum**: 
-
-- **Sprint board update**: Sprint board screenshotları:
+- **Sprint board update**: Sprint board screenshotları:  ![image](https://user-images.githubusercontent.com/95375876/169662677-4f703d26-178f-4c45-b03c-c17f78273bfc.png)
+![image](https://user-images.githubusercontent.com/95375876/169662688-65b0ba94-bd1a-4e04-be01-a4f1aa4e4385.png)
+![image](https://user-images.githubusercontent.com/95375876/169662698-4bdbc2bf-f159-45ad-abe3-cc6cd1a078e7.png)
 
 
 
