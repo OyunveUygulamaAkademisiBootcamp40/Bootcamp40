@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEditorInternal;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 
 public class Player : ProgressController
 {
+    public GameObject meltingParticle;
     public GameObject _tutorialManger;
     public static bool gameIsStarted = false;
     public static bool gameIsFinished = false;
@@ -16,9 +18,12 @@ public class Player : ProgressController
     [SerializeField] private float XAxisMovementFactor = 5f;
     [SerializeField] private float ZAxisMovementFactor = 5f;
 
-    public static float decreasingProgressFactorInTime = 2.0f;
+    public static float decreasingProgressFactorInTime = 1.0f;
     
     InputManager inputManager = new InputManager();
+
+    public static bool isFrostEffectActive = false;
+    public static bool isFlameEffectActive = false; 
     
 
    public Slider slider;
@@ -32,6 +37,7 @@ public class Player : ProgressController
 
     private void FixedUpdate()
     {   
+        checkProgressExceedFull();
         setSliderValue();
         if (gameIsStarted && !gameIsFinished)
         {
@@ -40,10 +46,7 @@ public class Player : ProgressController
     }
     
     private void Update()
-    {   
-        
-        
-        
+    {
         MoveDirectionZ();
         MoveDirectionX();
         //MoveProgressBar(); Todo(baris)
@@ -110,11 +113,13 @@ public class Player : ProgressController
     void EndLevel()
     {
         gameIsFinished = true;
+        meltingParticle.SetActive(false);
     }
 
     void StartLevel()
     {
         gameIsStarted = true;
+        meltingParticle.SetActive(true);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -159,5 +164,13 @@ public class Player : ProgressController
         progress -= decreasingProgressFactorInTime;
     }
 
-    
+    void checkProgressExceedFull()
+    {
+        if (progress > 1000.0f)
+        {
+            progress = 1000.0f;
+        }
+    }
+
+
 }

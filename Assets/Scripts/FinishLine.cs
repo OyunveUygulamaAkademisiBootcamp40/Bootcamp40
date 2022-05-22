@@ -7,15 +7,22 @@ using UnityEngine.UIElements;
 
 public class FinishLine : MonoBehaviour
 {
-    [SerializeField] public GameObject _finishLineCanvas;
+    [SerializeField] public GameObject victoryScene;
+    [SerializeField] public GameObject particles;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
-        {
-            _finishLineCanvas.SetActive(true);
+        {   
+            particles.SetActive(true);
+            Invoke("LoadVictoryScene()",5f);
             Debug.Log("triggered");
         }
+    }
+
+    void LoadVictoryScene()
+    {
+        victoryScene.SetActive(true);
     }
 }
 
