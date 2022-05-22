@@ -15,7 +15,7 @@ public class FinishLine : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {   
             particles.SetActive(true);
-            Invoke("LoadVictoryScene()",5f);
+            Invoke("LoadVictoryScene",5f);
             Debug.Log("triggered");
         }
     }
