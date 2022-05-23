@@ -79,7 +79,7 @@
 # Sprint 2
 - **Sprint Notları**: Sprint 1'de hedeflenmiş olan oynanabilir sürüm etme hedefi başarıldı. Genel hatlarıyla özgün bir deneyim yaşatan oyun buildi alındı. 
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 80
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100
 
 - **Puan tamamlama mantığı**:  Ayrılan tasklerdeki puanlamalar, tasklerin bağımlılık durumuna göre puanlandırılmıştır. Bu sprintte Özellikle mekanikler olmadan tasarımlar ve genel oynanış hazırlanmıştır. Bu sebeple görevlerin puanları durumlara göre dağıtılmıştır. Bu sprintte özellikle bazı taskler gerçekleşmeden diğer taskler'e geçilmediği için en yüksek puanlar bağımlılık yaratan tasklerin olmuştur.
 
@@ -92,6 +92,9 @@
 - **Sprint board update**: Sprint board screenshotları:  ![image](https://user-images.githubusercontent.com/95375876/169662677-4f703d26-178f-4c45-b03c-c17f78273bfc.png)
 ![image](https://user-images.githubusercontent.com/95375876/169662688-65b0ba94-bd1a-4e04-be01-a4f1aa4e4385.png)
 ![image](https://user-images.githubusercontent.com/95375876/169662698-4bdbc2bf-f159-45ad-abe3-cc6cd1a078e7.png)
+![image](https://user-images.githubusercontent.com/95375876/169716732-874b0de7-5775-4821-9483-159e7406cc68.png)
+![image](https://user-images.githubusercontent.com/95375876/169716743-c9a2afad-b1d5-4e08-a775-df4791c7c761.png)
+
 
 
 
@@ -101,6 +104,8 @@
 ![image](https://user-images.githubusercontent.com/95375876/169662796-9249f0f6-9270-4f24-8a94-e55244b9fc6c.png)
 ![image](https://user-images.githubusercontent.com/95375876/169662809-a733a2df-0d0b-4eae-99d4-69866567c10f.png)
 ![image](https://user-images.githubusercontent.com/95375876/169662823-ba53c155-0c7e-4934-a558-a874d21c4743.png)
+
+
 
 
 
