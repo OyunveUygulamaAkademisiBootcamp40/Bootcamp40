@@ -13,10 +13,11 @@ public class FinishLine : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
-        {   
+        {
+            FindObjectOfType<AudioManager>().Play("victorySound");
             particles.SetActive(true);
             Invoke("LoadVictoryScene",5f);
-            Debug.Log("triggered");
+           
         }
     }
 

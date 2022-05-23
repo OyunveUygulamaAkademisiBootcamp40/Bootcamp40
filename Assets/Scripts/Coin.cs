@@ -13,6 +13,7 @@ public class Coin : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Coin"))
         {
+            FindObjectOfType<AudioManager>().Play("coinSound");
             Destroy(other.gameObject);
             _coinCount++;
             _coinCountText.text = _coinCount.ToString();

@@ -1,9 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-#if UNITY_EDITOR
-
-#endif
 public class Player : ProgressController
 {
     public GameObject meltingParticle;

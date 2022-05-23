@@ -16,6 +16,7 @@ public class DefeatScene : MonoBehaviour
     {
         if (DefeatSceneIsActive)
         {
+            FindObjectOfType<AudioManager>().Play("defeatSound");
             defeatScene.SetActive(true);
         }
     }
