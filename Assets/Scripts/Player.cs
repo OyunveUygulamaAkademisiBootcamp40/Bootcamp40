@@ -1,12 +1,9 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using UnityEditorInternal;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 
+#if UNITY_EDITOR
+
+#endif
 public class Player : ProgressController
 {
     public GameObject meltingParticle;
