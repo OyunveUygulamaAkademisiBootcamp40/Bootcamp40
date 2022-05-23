@@ -71,8 +71,8 @@
   - 
  
 
--**Diğer Notlar**:
-- N/A
+-**Sprint Tasks And Board SpreadSheet**:
+- [N/A](https://docs.google.com/spreadsheets/d/1COv5F8pxELcA8KU8HPD6DSd-RF_b-kb0DCYc8FAw7LY/edit?usp=sharing)
 
 ---
 
@@ -119,8 +119,8 @@
   - 
  
 
--**Diğer Notlar**:
-- N/A
+-**Sprint Tasks and Board SpreadSheet**:
+- https://docs.google.com/spreadsheets/d/1d83mZL3Ymttja6rmgy9NgmRiBbw8DycOAUCEvTcscQ4/edit?usp=sharing
 
 ---
 
