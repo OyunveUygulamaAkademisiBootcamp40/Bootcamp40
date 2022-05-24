@@ -141,11 +141,17 @@ public class Player : ProgressController
         }
         else if (other.tag == "SnowCanon")
         {
+            FindObjectOfType<AudioManager>().Play("snowCannonSound");
             progress += 500.0f;
         }
         else if (other.tag == "FlameCannon")
         {
+            FindObjectOfType<AudioManager>().Play("flameCannonSound");
             progress -= 300.0f;
+        }
+        else if (other.tag == "Lava")
+        {
+            FindObjectOfType<AudioManager>().Play("flameCannonSound");
         }
     }
 

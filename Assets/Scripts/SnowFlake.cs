@@ -9,7 +9,7 @@ public class SnowFlake : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            FindObjectOfType<AudioManager>().Play("iceSound");  
+            FindObjectOfType<AudioManager>().Play("snowFlakeSound");  
             Player.isFrostEffectActive = true;
             Destroy(gameObject);
         }

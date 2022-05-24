@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.26854548, g: 0.4644934, b: 0.6146665, a: 1}
+  m_IndirectSpecularColor: {r: 0.2685308, g: 0.46447867, b: 0.61467874, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -573,80 +573,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885584143}
   m_CullTransparentMesh: 1
---- !u!1 &1034207567
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1034207569}
-  - component: {fileID: 1034207568}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1034207568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1034207567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 700afdc6ce31a5142bff6a9629c95d95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - source: {fileID: 0}
-    clip: {fileID: 8300000, guid: e095c7c83b522974c98a54c435b9ccd3, type: 3}
-    name: backgroundSound
-    volume: 0.56
-    pitch: 1.01
-    loop: 1
-  - source: {fileID: 0}
-    clip: {fileID: 8300000, guid: 3b0c281404a620d41aa459f08ff2d808, type: 3}
-    name: coinSound
-    volume: 0.35
-    pitch: 1.08
-    loop: 0
-  - source: {fileID: 0}
-    clip: {fileID: 8300000, guid: c8858d8de175c2443a25f5610d879c3e, type: 3}
-    name: defeatSound
-    volume: 0.29
-    pitch: 1.01
-    loop: 0
-  - source: {fileID: 0}
-    clip: {fileID: 8300000, guid: d56fe43492e3682479a9be5a590f56a1, type: 3}
-    name: iceSound
-    volume: 0.51
-    pitch: 1.01
-    loop: 0
-  - source: {fileID: 0}
-    clip: {fileID: 8300000, guid: 5b8a165cf5d5fcc448f8ebdb119cf4e1, type: 3}
-    name: victorySound
-    volume: 0.52
-    pitch: 1
-    loop: 0
---- !u!4 &1034207569
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1034207567}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1180209549
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,6 +649,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180209549}
   m_CullTransparentMesh: 1
+--- !u!1 &1234641865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1234641867}
+  - component: {fileID: 1234641866}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1234641866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234641865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 700afdc6ce31a5142bff6a9629c95d95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: e095c7c83b522974c98a54c435b9ccd3, type: 3}
+    name: backgroundSound
+    volume: 0.56
+    pitch: 1.01
+    loop: 1
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 3b0c281404a620d41aa459f08ff2d808, type: 3}
+    name: coinSound
+    volume: 0.35
+    pitch: 1.08
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: c8858d8de175c2443a25f5610d879c3e, type: 3}
+    name: defeatSound
+    volume: 0.29
+    pitch: 1.01
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 332791fd815fd7a4aba1795f08cf9ca9, type: 3}
+    name: snowFlakeSound
+    volume: 0.51
+    pitch: 1.01
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: d56fe43492e3682479a9be5a590f56a1, type: 3}
+    name: snowCannonSound
+    volume: 0.52
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: a583874e267faa74596084409c5d37fc, type: 3}
+    name: flameCannonSound
+    volume: 0.52
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 5b8a165cf5d5fcc448f8ebdb119cf4e1, type: 3}
+    name: victorySound
+    volume: 0.52
+    pitch: 1
+    loop: 0
+--- !u!4 &1234641867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234641865}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1318428571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,7 +1498,7 @@ PrefabInstance:
     - target: {fileID: 6166468997140327654, guid: 9ba3073880026e84daf3b355cae2d3a6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6166468997140327654, guid: 9ba3073880026e84daf3b355cae2d3a6,
         type: 3}
