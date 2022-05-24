@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class Player : ProgressController
 {
     public GameObject meltingParticle;
@@ -24,9 +25,19 @@ public class Player : ProgressController
 
     private void Start()
     {
-        _tutorialManger.SetActive(true);
+        if (SceneManager.playerLevel==1)
+        {
+            _tutorialManger.SetActive(true);
+        }
+        else
+        {
+            _tutorialManger.SetActive(false);
+        }
+        
         progress = 1000.0f;
         setSliderValue();
+        gameIsFinished = false;
+        gameIsStarted = false;
     }
 
     private void FixedUpdate()
@@ -61,6 +72,7 @@ public class Player : ProgressController
     {
         if (inputManager.getInput() > 0.0f)
         {
+            Debug.Log("Girdi");
             moveRight = true;
             moveLeft = false;
 
@@ -89,6 +101,7 @@ public class Player : ProgressController
 
     void MoveDirectionX()
     {
+
         if (moveLeft && !gameIsFinished && transform.position.x > -4f)
         {
             transform.position = new Vector3(transform.position.x - XAxisMovementFactor * Time.deltaTime,
