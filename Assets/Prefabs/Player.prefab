@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6836003815154124980}
   - component: {fileID: 3943571426263943731}
+  - component: {fileID: 7146383238502813614}
   - component: {fileID: 331014563}
   - component: {fileID: 331014562}
   - component: {fileID: 331014561}
@@ -54,10 +55,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fill: {fileID: 1403181291040611487}
+  meltingParticle: {fileID: 0}
   _tutorialManger: {fileID: 0}
   XAxisMovementFactor: 7
   ZAxisMovementFactor: 6.98
   slider: {fileID: 1403181292261875393}
+--- !u!114 &7146383238502813614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3943571426263943729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87784837d58f9ce45a669578a3fd6a81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefeatSceneIsActive: 0
+  defeatScene: {fileID: 0}
 --- !u!54 &331014563
 Rigidbody:
   m_ObjectHideFlags: 0

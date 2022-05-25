@@ -1,23 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DefeatScene : MonoBehaviour
 {
     public bool DefeatSceneIsActive = false;
     public GameObject defeatScene;
+    [SerializeField]public Image filler;
+  
+    
+    
     void Start()
     {
-        defeatScene.SetActive(false);
+        DefeatSceneIsActive = false;
+        filler.GetComponent<Image>();
+        
     }
-
-    // Update is called once per frame
+ 
     void Update()
-    {
+    {     
+        if (filler.fillAmount < 0.0026f)
+        {
+           Debug.Log("acaba");
+           DefeatSceneIsActive = true;
+        }
+
+        
+
         if (DefeatSceneIsActive)
         {
-            FindObjectOfType<AudioManager>().Play("defeatSound");
             defeatScene.SetActive(true);
+            FindObjectOfType<AudioManager>().Play("defeatSound");
+            
         }
     }
 }
