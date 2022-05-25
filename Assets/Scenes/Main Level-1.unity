@@ -1267,6 +1267,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5718718834660396477, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718718834660396477, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5718718834891432696, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -1382,6 +1392,31 @@ PrefabInstance:
       propertyPath: _tutorialManger
       value: 
       objectReference: {fileID: 120920193}
+    - target: {fileID: 9109691704897258410, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9109691704897258410, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9109691704897258410, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99862957
+      objectReference: {fileID: 0}
+    - target: {fileID: 9109691704897258410, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.052335996
+      objectReference: {fileID: 0}
+    - target: {fileID: 9109691704897258410, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 174
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59630935eca99b54c9a8f43c17906d65, type: 3}
 --- !u!1001 &5781308972778960880
@@ -1480,6 +1515,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781308973194145271, guid: 0124bf7d8973643449d35129bca7ca52,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0124bf7d8973643449d35129bca7ca52, type: 3}
