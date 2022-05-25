@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,7 +19,11 @@ public class Player : ProgressController
     InputManager inputManager = new InputManager();
 
     public static bool isFrostEffectActive = false;
-    public static bool isFlameEffectActive = false; 
+    public static bool isFlameEffectActive = false;
+
+
+    private float inputOldPos = 0.0f;
+    private float inputNewPos = 0.0f;
     
 
    public Slider slider;
@@ -70,33 +75,38 @@ public class Player : ProgressController
 
     void GetInput()
     {
-        if (inputManager.getInput() > 0.0f)
+        inputNewPos = Input.mousePosition.x;
+        
+        if(Math.Abs(inputNewPos - inputOldPos) > 3.0f && Input.GetMouseButton(0))
         {
-            Debug.Log("Girdi");
-            moveRight = true;
-            moveLeft = false;
-
-            if (!gameIsStarted)
+            if (inputNewPos - inputOldPos > 0.0f)
             {
-                StartLevel();
+                moveRight = true;
+                moveLeft = false;
+
+                if (!gameIsStarted)
+                {   
+                    StartLevel();
+                }
+
             }
-
-        }
-        else if (inputManager.getInput() < 0.0f)
-        {
-            moveLeft = true;
-            moveRight = false;
-
-            if (!gameIsStarted)
+            else if (inputNewPos - inputOldPos < 0.0f)
             {
-                StartLevel();
+                moveLeft = true;
+                moveRight = false;
+
+                if (!gameIsStarted)
+                { 
+                    StartLevel();
+                }
             }
         }
         else
         {
             moveLeft = false;
-            moveRight = false;
+            moveRight = false; 
         }
+        inputOldPos = inputNewPos;
     }
 
     void MoveDirectionX()
