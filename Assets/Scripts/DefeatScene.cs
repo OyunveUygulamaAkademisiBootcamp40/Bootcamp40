@@ -2,37 +2,46 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Analytics;
 
 public class DefeatScene : MonoBehaviour
 {
     public bool DefeatSceneIsActive = false;
     public GameObject defeatScene;
-    [SerializeField]public Image filler;
-  
-    
-    
+    [SerializeField] public Image filler;
+    public int whichLevel;
+
+
     void Start()
     {
+        whichLevel = SceneManager.whichLevel;
         DefeatSceneIsActive = false;
         filler.GetComponent<Image>();
-        
     }
- 
+
     void Update()
-    {     
-        if (filler.fillAmount < 0.0026f)
+    {
+        if (DefeatSceneIsActive == false)
         {
-           Debug.Log("acaba");
-           DefeatSceneIsActive = true;
+            if (filler.fillAmount < 0.0026f)
+            {
+                DefeatSceneIsActive = true;
+                defeatScene.SetActive(true);
+                DefeatSceneDone();
+            }
         }
-
-        
-
-        if (DefeatSceneIsActive)
-        {
-            defeatScene.SetActive(true);
+    }
+    void DefeatSceneDone()
+    {
+        AnalyticsResult analyticsResult = Analytics.CustomEvent("LevelFailed", 
+            new Dictionary<string,object> {
+                { "Level:",whichLevel},
+                {"Position:",Mathf.RoundToInt(transform.position.z/20f) }
+            });
+            Debug.Log("Sonuc:" + analyticsResult);
             FindObjectOfType<AudioManager>().Play("defeatSound");
-            
-        }
+  
+        StopAllCoroutines();
     }
 }
+
