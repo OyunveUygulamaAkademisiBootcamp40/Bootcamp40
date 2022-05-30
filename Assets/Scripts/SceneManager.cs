@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,20 +13,25 @@ public class SceneManager : MonoBehaviour
     }
     public static int playerLevel = 1;
 
+    private void Start()
+    {
+        Debug.Log("aktif scene number: " + playerLevel);
+    }
 
     public void OtherScene()
     {
-        playerLevel++;
-        if (playerLevel%3==0)
+        Debug.Log(playerLevel);
+        
+        if (playerLevel%3 == 0 )
         {
             UnitySceneManager.LoadScene(0);
+            Debug.Log("ilk levela gecti");
         }
         else
         {
             UnitySceneManager.LoadScene(UnitySceneManager.GetActiveScene().buildIndex + 1);
         }
         
-
     }
     public void RetryScene()
     {
