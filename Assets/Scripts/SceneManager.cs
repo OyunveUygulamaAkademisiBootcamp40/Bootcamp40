@@ -31,7 +31,8 @@ public class SceneManager : MonoBehaviour
         {
             UnitySceneManager.LoadScene(UnitySceneManager.GetActiveScene().buildIndex + 1);
         }
-        
+
+        playerLevel++;
     }
     public void RetryScene()
     {
