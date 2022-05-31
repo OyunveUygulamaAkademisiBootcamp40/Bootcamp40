@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.26854548, g: 0.4644934, b: 0.6146665, a: 1}
+  m_IndirectSpecularColor: {r: 0.26856166, g: 0.4645155, b: 0.61470455, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16326,7 +16326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 142631762}
   m_Layer: 0
-  m_Name: Level1
+  m_Name: Level3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96239,3 +96239,47 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5718718834667095338}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5718718834667095341 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5718718835712507985, guid: 59630935eca99b54c9a8f43c17906d65,
+    type: 3}
+  m_PrefabInstance: {fileID: 5718718834667095338}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5718718834667095342 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5718718835909763166, guid: 59630935eca99b54c9a8f43c17906d65,
+    type: 3}
+  m_PrefabInstance: {fileID: 5718718834667095338}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5718718834667095343 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5718718835909763164, guid: 59630935eca99b54c9a8f43c17906d65,
+    type: 3}
+  m_PrefabInstance: {fileID: 5718718834667095338}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5718718834667095342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5718718834667095344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5718718834667095342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b590397233c0e5c4aa3a9549a1580f55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelUIStartText: {fileID: 5718718834667095343}
+  LevelUIEndText: {fileID: 5718718834667095341}
