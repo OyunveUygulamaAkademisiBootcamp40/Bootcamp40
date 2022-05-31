@@ -490,6 +490,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5781308972778960880}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &361114691 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8783876529539748155, guid: 59630935eca99b54c9a8f43c17906d65,
+    type: 3}
+  m_PrefabInstance: {fileID: 5718718834667095338}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &369336300
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,6 +631,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369336300}
   m_CullTransparentMesh: 1
+--- !u!1 &452168840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 902fa94750782334592e2327117df1f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1706309306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &452168843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452168840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e65a4bf57cdfb478077d344ad4eb27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SurfBorad: {fileID: 361114691}
+  PlayerCharacter: {fileID: 452168840}
 --- !u!1 &669645855 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2002179401725596578, guid: 59630935eca99b54c9a8f43c17906d65,
@@ -851,12 +877,6 @@ CanvasRenderer:
 --- !u!1 &969888491 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5533853883105971809, guid: 59630935eca99b54c9a8f43c17906d65,
-    type: 3}
-  m_PrefabInstance: {fileID: 5718718834667095338}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1023378028 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9109691704897258410, guid: 59630935eca99b54c9a8f43c17906d65,
     type: 3}
   m_PrefabInstance: {fileID: 5718718834667095338}
   m_PrefabAsset: {fileID: 0}
@@ -1365,12 +1385,12 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1023378028}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}
@@ -1380,7 +1400,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}
@@ -1390,22 +1410,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.06
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0039999965
+      value: 2.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.07999992
+      value: 8.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}
@@ -1415,7 +1435,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}

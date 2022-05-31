@@ -60,7 +60,6 @@ public class Player : ProgressController
     {
         MoveDirectionZ();
         MoveDirectionX();
-        //MoveProgressBar(); Todo(baris)
         GetInput();
     }
 
