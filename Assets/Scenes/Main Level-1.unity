@@ -2412,6 +2412,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 73.36
       objectReference: {fileID: 0}
+    - target: {fileID: 5781308972104139478, guid: 0124bf7d8973643449d35129bca7ca52,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 10.742695
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781308972104139478, guid: 0124bf7d8973643449d35129bca7ca52,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 66.61423
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781308972104139478, guid: 0124bf7d8973643449d35129bca7ca52,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.3769979
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781308972104139478, guid: 0124bf7d8973643449d35129bca7ca52,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 38.792915
+      objectReference: {fileID: 0}
     - target: {fileID: 5781308972183829270, guid: 0124bf7d8973643449d35129bca7ca52,
         type: 3}
       propertyPath: m_SizeDelta.x

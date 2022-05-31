@@ -13,10 +13,12 @@ public class SceneManager : MonoBehaviour
     }
     public static int playerLevel = 1;
 
-    private void Start()
+    private void Awake()
     {
-        Debug.Log("aktif scene number: " + playerLevel);
+        preventScreenFlip();
     }
+
+   
 
     public void OtherScene()
     {
@@ -25,7 +27,6 @@ public class SceneManager : MonoBehaviour
         if (playerLevel%3 == 0 )
         {
             UnitySceneManager.LoadScene(0);
-            Debug.Log("ilk levela gecti");
         }
         else
         {
@@ -37,5 +38,10 @@ public class SceneManager : MonoBehaviour
     public void RetryScene()
     {
         UnitySceneManager.LoadScene(UnitySceneManager.GetActiveScene().buildIndex);
+    }
+
+    private void preventScreenFlip()
+    {
+        Screen.orientation = ScreenOrientation.Portrait;
     }
 }
