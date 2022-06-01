@@ -43,9 +43,5 @@ public class AudioManager : MonoBehaviour
         if (s == null) return;
         s.source.Stop();
     }
-    private void Start()
-    {
-
-        Play("backgroundSound");
-    }
+    
 }
