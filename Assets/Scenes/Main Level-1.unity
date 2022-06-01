@@ -1545,6 +1545,47 @@ PrefabInstance:
       propertyPath: m_Name
       value: Settings_UI
       objectReference: {fileID: 0}
+    - target: {fileID: 302404331673193490, guid: ad92efcdf08da1246b4b3a65c20e1e37,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 302404331673193500, guid: ad92efcdf08da1246b4b3a65c20e1e37,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 302404331673193500, guid: ad92efcdf08da1246b4b3a65c20e1e37,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 302404331673193500, guid: ad92efcdf08da1246b4b3a65c20e1e37,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8720833900406442458, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+    - target: {fileID: 302404331673193500, guid: ad92efcdf08da1246b4b3a65c20e1e37,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 302404331673193500, guid: ad92efcdf08da1246b4b3a65c20e1e37,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GetLeaderBoard
+      objectReference: {fileID: 0}
+    - target: {fileID: 302404331673193500, guid: ad92efcdf08da1246b4b3a65c20e1e37,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayfabManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 302404331673193500, guid: ad92efcdf08da1246b4b3a65c20e1e37,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 302404332781811985, guid: ad92efcdf08da1246b4b3a65c20e1e37,
         type: 3}
       propertyPath: audioSource
