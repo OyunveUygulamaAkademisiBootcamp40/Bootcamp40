@@ -27,7 +27,9 @@ public class Player : ProgressController
     private float inputNewPos = 0.0f;
     
 
-   public Slider slider;
+    public Slider slider;
+
+    public PlayfabManager playfabManager;
 
     private void Start()
     {
@@ -44,6 +46,7 @@ public class Player : ProgressController
         setSliderValue();
         gameIsFinished = false;
         gameIsStarted = false;
+        
     }
 
     private void FixedUpdate()
@@ -131,6 +134,7 @@ public class Player : ProgressController
     {
         gameIsFinished = true;
         meltingParticle.SetActive(false);
+        playfabManager.SendLeaderboard(score:+1);
     }
 
     void StartLevel()
@@ -173,11 +177,6 @@ public class Player : ProgressController
         }
     }
 
-    void MoveProgressBar()
-    {
-
-    }
-    
     private void setSliderValue()
     {
         slider.value = progress;

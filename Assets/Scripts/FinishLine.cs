@@ -9,7 +9,10 @@ public class FinishLine : MonoBehaviour
 {
     [SerializeField] public GameObject victoryScene;
     [SerializeField] public GameObject particles;
+    
+    
 
+ 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -24,6 +27,7 @@ public class FinishLine : MonoBehaviour
     void LoadVictoryScene()
     {
         victoryScene.SetActive(true);
+
     }
 }
 

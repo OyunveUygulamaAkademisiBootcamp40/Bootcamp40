@@ -7,6 +7,8 @@ using UnitySceneManager = UnityEngine.SceneManagement.SceneManager;
 public class SceneManager : MonoBehaviour
 {
     public static int whichLevel;
+
+
     public static void GetWhichLevel()
     {
         whichLevel = UnitySceneManager.GetActiveScene().buildIndex;
@@ -18,7 +20,7 @@ public class SceneManager : MonoBehaviour
         preventScreenFlip();
     }
 
-   
+
 
     public void OtherScene()
     {

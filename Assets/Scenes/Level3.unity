@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2685308, g: 0.46447867, b: 0.61467874, a: 1}
+  m_IndirectSpecularColor: {r: 0.26854548, g: 0.4644934, b: 0.6146665, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -56219,6 +56219,87 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 316358688}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1139448377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8720833900406442459, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayfabManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720833900406442461, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720833900406442461, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720833900406442461, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720833900406442461, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720833900406442461, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720833900406442461, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720833900406442461, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720833900406442461, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720833900406442461, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720833900406442461, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720833900406442461, guid: adfb1874ec49b1f4e8d6a2664602349f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: adfb1874ec49b1f4e8d6a2664602349f, type: 3}
+--- !u!114 &1139448378 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8720833900406442458, guid: adfb1874ec49b1f4e8d6a2664602349f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1139448377}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8c97e96f0f17644bc3b15e3c4e4bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1142020988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9090961422065414300, guid: 58d3b8f0a37566949b4f23ac5b331ae6,
@@ -96545,6 +96626,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainComponents
       objectReference: {fileID: 0}
+    - target: {fileID: 8783876529539748153, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: playfabManager
+      value: 
+      objectReference: {fileID: 1139448378}
     - target: {fileID: 8783876529539748153, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
       propertyPath: _tutorialManger
