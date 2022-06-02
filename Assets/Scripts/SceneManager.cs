@@ -20,13 +20,11 @@ public class SceneManager : MonoBehaviour
         preventScreenFlip();
     }
 
-
-
     public void OtherScene()
     {
         Debug.Log(playerLevel);
-        
-        if (playerLevel%3 == 0 )
+
+        if (playerLevel % 3 == 0)
         {
             UnitySceneManager.LoadScene(0);
         }
@@ -45,5 +43,10 @@ public class SceneManager : MonoBehaviour
     private void preventScreenFlip()
     {
         Screen.orientation = ScreenOrientation.Portrait;
+    }
+
+    public void OtherSceneActive()
+    {
+        Invoke(nameof(OtherScene), 2f);
     }
 }

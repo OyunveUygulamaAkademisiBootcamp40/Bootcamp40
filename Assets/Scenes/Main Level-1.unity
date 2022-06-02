@@ -2630,6 +2630,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -100.48
       objectReference: {fileID: 0}
+    - target: {fileID: 1296274551876409016, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 1612507678503039413, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
       propertyPath: m_RootOrder
@@ -2829,32 +2834,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 159.5853
-      objectReference: {fileID: 0}
-    - target: {fileID: 5718718834561199334, guid: 59630935eca99b54c9a8f43c17906d65,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 6166468997140327655, guid: 9ba3073880026e84daf3b355cae2d3a6,
-        type: 3}
-    - target: {fileID: 5718718834561199334, guid: 59630935eca99b54c9a8f43c17906d65,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5718718834561199334, guid: 59630935eca99b54c9a8f43c17906d65,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OtherScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 5718718834561199334, guid: 59630935eca99b54c9a8f43c17906d65,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SceneManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5718718834561199334, guid: 59630935eca99b54c9a8f43c17906d65,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5718718834660396477, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
