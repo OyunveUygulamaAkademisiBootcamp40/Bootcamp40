@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using Newtonsoft.Json;
 using PlayFab;
 using PlayFab.ClientModels;
 
 public class PlayfabManager : MonoBehaviour
 {
+    public GameObject rowPrefab;
+    public Transform rowsParent;
     void Start()
     {
         Login();
@@ -60,9 +64,19 @@ public class PlayfabManager : MonoBehaviour
     }
     void OnLeaderboardGet(GetLeaderboardResult result)
     {
+        foreach (Transform item in rowsParent)
+        {
+            Destroy(item.gameObject);
+        }
         foreach (var item in result.Leaderboard)
         {
-            Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
+            GameObject newGo = Instantiate(rowPrefab, rowsParent);
+            Text[] texts = newGo.GetComponentsInChildren<Text>();
+            texts[0].text = item.Position.ToString();
+            texts[1].text = item.PlayFabId;
+            texts[2].text = item.StatValue.ToString();
+            Debug.Log(string.Format("PLACE: {0} | NAME: {1} | VALUE: {2}",
+                item.Position,item.PlayFabId,item.StatValue));
         }
     }
 }
