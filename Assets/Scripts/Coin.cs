@@ -5,27 +5,27 @@ using UnityEngine.UI;
 
 public class Coin : MonoBehaviour
 {
-   [SerializeField] Animator _anim;
+    [SerializeField] Camera _camera;
+    [SerializeField] GameObject panel;
+    [SerializeField] GameObject coinUIPrefeab;
+
     public Text _coinCountText;
     private float _coinCount;
-    
+
+    public void Update()
+    {
+        panel = GameObject.FindGameObjectWithTag("CoinBar");
+        _coinCountText.text = TotalScore._totalScore.ToString();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Coin"))
         {
             FindObjectOfType<AudioManager>().Play("coinSound");
             Destroy(other.gameObject);
-            _coinCount++;
-            _coinCountText.text = _coinCount.ToString();
+            Instantiate(coinUIPrefeab, _camera.WorldToScreenPoint(transform.position), panel.transform.rotation, panel.transform);
             TotalScore._totalScore++;
-           _anim.SetBool("coinControl", true);
-            StartCoroutine(Wait());
         }
-    }
-    IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(0.4f);
-        _anim.SetBool("coinControl", false);
-        
     }
 }

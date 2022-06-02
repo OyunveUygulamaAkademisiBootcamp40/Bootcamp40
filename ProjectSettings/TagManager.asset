@@ -9,6 +9,10 @@ TagManager:
   - SnowCanon
   - FlameCannon
   - Lava
+  - LevelUIStartText
+  - LevelUIEndText
+  - CoinBar
+  - CoinUI
   layers:
   - Default
   - TransparentFX

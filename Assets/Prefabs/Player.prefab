@@ -60,6 +60,7 @@ MonoBehaviour:
   XAxisMovementFactor: 7
   ZAxisMovementFactor: 6.98
   slider: {fileID: 1403181292261875393}
+  playfabManager: {fileID: 0}
 --- !u!114 &7146383238502813614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,6 +75,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefeatSceneIsActive: 0
   defeatScene: {fileID: 0}
+  filler: {fileID: 0}
+  whichLevel: 0
 --- !u!54 &331014563
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -115,7 +118,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1f7c7996124b57459b0f7fab50319d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _anim: {fileID: 0}
+  _camera: {fileID: 0}
+  panel: {fileID: 0}
+  coinUIPrefeab: {fileID: 8939549775541857304, guid: 08a5e70ab73739045ae8860cdf5c6e2c,
+    type: 3}
   _coinCountText: {fileID: 0}
 --- !u!1 &7261234638363914313
 GameObject:
