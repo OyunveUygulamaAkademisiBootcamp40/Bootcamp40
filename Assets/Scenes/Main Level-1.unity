@@ -2998,6 +2998,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 902fa94750782334592e2327117df1f3, type: 3}
+--- !u!95 &1706309307 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 902fa94750782334592e2327117df1f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1706309306}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1723203216
 GameObject:
   m_ObjectHideFlags: 0
@@ -4112,6 +4118,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 159.5853
       objectReference: {fileID: 0}
+    - target: {fileID: 5718718834578600062, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1706309307}
     - target: {fileID: 5718718834891432696, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
       propertyPath: m_SizeDelta.x
