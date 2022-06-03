@@ -70,8 +70,11 @@ public class PlayfabManager : MonoBehaviour
         }
         foreach (var item in result.Leaderboard)
         {
-            GameObject newGo = Instantiate(rowPrefab, rowsParent);
+            GameObject newGo = Instantiate(rowPrefab);
             Text[] texts = newGo.GetComponentsInChildren<Text>();
+
+            newGo.transform.parent = GameObject.Find("Table").transform;
+
             texts[0].text = item.Position.ToString();
             texts[1].text = item.PlayFabId;
             texts[2].text = item.StatValue.ToString();
