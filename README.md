@@ -128,7 +128,53 @@
 ---
 
 # Sprint 3
+- **Sprint Notları**: Birinci sprintte oynanabilir bir sürüm elde etmek hedeflendi. Bayram sebebiyle bu hedef 2. sprinte ertelendi. Assetler ve tema oturtuldu. Mekanikler tasarlandı. 3. Sprintte ise oyunun pazara sürülebilir bir versiyonu elde edilmek istendi. Jürinin belirlediği kriter hedefleri tamamlandı. Oyun geliştirmesi bitmedi fakat. Gelecek güncellemeler belirlendi.
 
+- **Sprint içinde tamamlanması tahmin edilen puan**: 160
+
+- **Puan tamamlama mantığı**: Ayrılan tasklerdeki puanlamalar, tasklerin bağımlılık durumuna göre puanlandırılmıştır. Bu sprintte Özellikle mekanikler olmadan tasarımlar ve genel oynanış hazırlanmıştır. Bu sebeple görevlerin puanları durumlara göre dağıtılmıştır. Hatalar ve çözümler proje etkisine göre 1 puana sabitlenmiştir. Jüri beklentisi içeren taskler'e 13 puan verilmiştir.
+
+- **Backlog düzeni ve Story seçimleri**: ![image](https://user-images.githubusercontent.com/95375876/167297172-985cd608-cb51-47b8-a051-b21283652525.png)
+- Sadece task seçimleri yapılmış olup, taskler takım üyelerinin ilgi alanına ve isteklerine göre dağıtılmıştır. Takım üyeleri, board'u sürekli güncel tutup ekleme ve çıkarmaları rapor etmiştir.
+
+
+
+- **Daily Scrum**: https://docs.google.com/document/d/13WSJ3dc7bRzrLN5Eiqv3EfWoyo6TfTUAkpo_2NQAqUk/edit?usp=sharing
+
+- **Sprint board update**: Sprint board screenshotları:
+![image](https://user-images.githubusercontent.com/95375876/172020691-97ca5bbe-153a-4eeb-b6ce-5c7faa36dafd.png)
+![image](https://user-images.githubusercontent.com/95375876/172020702-f74dbd4a-c6b2-491f-88b1-6f4829a9bee2.png)
+![image](https://user-images.githubusercontent.com/95375876/172020709-46145f44-f54e-41a4-ab36-57aa02892d4e.png)
+
+
+
+
+
+- **Ürün Durumu**: Ekran görüntüleri: 
+- ![image](https://user-images.githubusercontent.com/95375876/172020796-be0ce639-677c-4390-8b0e-9cb0e9d76616.png)
+- ![image](https://user-images.githubusercontent.com/95375876/172020817-42689f1a-98d9-417e-bc29-38054e9797c3.png)
+- ![image](https://user-images.githubusercontent.com/95375876/172020842-89cd3e89-076a-4b5c-aae5-523bc7cec5b6.png)
+- ![image](https://user-images.githubusercontent.com/95375876/172020859-5f5f2b14-25c7-4321-a695-63ec623bf62b.png)
+
+
+
+
+
+
+
+- **Sprint Review**: https://docs.google.com/document/d/1tfCAFb28_rntB1-kxkZdz2IgDOP1NQpxpaXLbwwajTk/edit?usp=sharing
+
+- **Ekip Toplantıları**: https://docs.google.com/document/d/1j5tC_a3Wr1a3AGzqjtfR7UVwDoxXiUu6fKDYIEkhsxM/edit
+
+
+- **Sprint Retrospective:** https://docs.google.com/document/d/1_jt8cu8LXUvt-eNERWmr_wxnbMvx3eqooPGQH2yogQQ/edit?usp=sharing
+  - 
+ 
+
+-**Sprint Tasks And Board SpreadSheet**:
+- [(https://docs.google.com/spreadsheets/d/1COv5F8pxELcA8KU8HPD6DSd-RF_b-kb0DCYc8FAw7LY/edit?usp=sharing)](https://docs.google.com/spreadsheets/d/1COv5F8pxELcA8KU8HPD6DSd-RF_b-kb0DCYc8FAw7LY/edit?usp=sharing)
+
+---
 ---
 =======
 # Bootcamp40
