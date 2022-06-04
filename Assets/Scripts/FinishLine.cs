@@ -10,22 +10,25 @@ public class FinishLine : MonoBehaviour
     [SerializeField] public Text scoreCounter;
     [SerializeField] public GameObject victoryScene;
     [SerializeField] public GameObject particles;
-  //  [SerializeField] public Animator _animator;
+    [SerializeField] public Animator _animator;
     bool isFinished;
     public static int coinAmount;
+    public ADsManager aDsManager;
    
 
 
 
     private void Start()
     {
-     //  _animator = _animator.GetComponent<Animator>();
+         _animator = _animator.GetComponent<Animator>();
+        aDsManager.GetComponent<ADsManager>();
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-         //   _animator.SetBool("isFinished",true);
+            aDsManager.onClickFiveSec();
+            _animator.SetBool("isFinished",true);
             FindObjectOfType<AudioManager>().Play("victorySound");
             particles.SetActive(true);
             Invoke("LoadVictoryScene",5f);
@@ -36,6 +39,7 @@ public class FinishLine : MonoBehaviour
 
     void LoadVictoryScene()
     {
+        
         victoryScene.SetActive(true);
         scoreCounter.text = coinAmount.ToString();
     }
