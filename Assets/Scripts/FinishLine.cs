@@ -14,6 +14,7 @@ public class FinishLine : MonoBehaviour
     bool isFinished;
     public static int coinAmount;
     public ADsManager aDsManager;
+    public CameraZoom cameraZoom;
    
 
 
@@ -22,12 +23,14 @@ public class FinishLine : MonoBehaviour
     {
          _animator = _animator.GetComponent<Animator>();
         aDsManager.GetComponent<ADsManager>();
+        cameraZoom.GetComponent<CameraZoom>();
+        
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            aDsManager.onClickFiveSec();
+            cameraZoom.isZoomed = true;
             _animator.SetBool("isFinished",true);
             FindObjectOfType<AudioManager>().Play("victorySound");
             particles.SetActive(true);
@@ -39,7 +42,7 @@ public class FinishLine : MonoBehaviour
 
     void LoadVictoryScene()
     {
-        
+        aDsManager.onClickFiveSec();
         victoryScene.SetActive(true);
         scoreCounter.text = coinAmount.ToString();
     }
