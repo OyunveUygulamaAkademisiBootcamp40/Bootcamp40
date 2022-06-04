@@ -26,6 +26,7 @@ public class Coin : MonoBehaviour
             Destroy(other.gameObject);
             Instantiate(coinUIPrefeab, _camera.WorldToScreenPoint(transform.position), panel.transform.rotation, panel.transform);
             TotalScore._totalScore++;
+            FinishLine.coinAmount++;
         }
     }
 }
