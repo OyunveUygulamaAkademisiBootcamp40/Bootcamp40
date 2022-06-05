@@ -2906,6 +2906,21 @@ PrefabInstance:
       propertyPath: audioListener
       value: 
       objectReference: {fileID: 669645860}
+    - target: {fileID: 302404331238386201, guid: ad92efcdf08da1246b4b3a65c20e1e37,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 302404331238386201, guid: ad92efcdf08da1246b4b3a65c20e1e37,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 302404331238386201, guid: ad92efcdf08da1246b4b3a65c20e1e37,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1776.7
+      objectReference: {fileID: 0}
     - target: {fileID: 302404331238386204, guid: ad92efcdf08da1246b4b3a65c20e1e37,
         type: 3}
       propertyPath: m_Pivot.x
@@ -3143,6 +3158,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718718834062055144, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718718834062055144, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 2112.7
       objectReference: {fileID: 0}
     - target: {fileID: 5718718834114507592, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
@@ -3509,6 +3534,11 @@ PrefabInstance:
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6682394476733945877, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1551
+      objectReference: {fileID: 0}
     - target: {fileID: 6882161695447815635, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
       propertyPath: m_Name
@@ -3534,6 +3564,11 @@ PrefabInstance:
       propertyPath: _tutorialManger
       value: 
       objectReference: {fileID: 120920193}
+    - target: {fileID: 8783876529539748153, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: XAxisMovementFactor
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 9014299832203538871, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -4088,6 +4123,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2a2afa94814cebd4383d79aa579ef7e4, type: 2}
+    - target: {fileID: 5781308972798685043, guid: 0124bf7d8973643449d35129bca7ca52,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781308972798685043, guid: 0124bf7d8973643449d35129bca7ca52,
+        type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781308972798685043, guid: 0124bf7d8973643449d35129bca7ca52,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1116.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781308972798685043, guid: 0124bf7d8973643449d35129bca7ca52,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 778.4
+      objectReference: {fileID: 0}
     - target: {fileID: 5781308972804603700, guid: 0124bf7d8973643449d35129bca7ca52,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
