@@ -190,8 +190,14 @@
 
 - **Ürün tamamlanma**: Oyun, oynamaya hazırdır. bir başlangıcı ve sonu vardır. Sınırsız bir şekilde oynamaya yöneliktir. Board'daki sprint tasklerinin hepsi tamamlanmıştır.
 
--**Oynama isteği**: Bu duygunun yaratılması için oyunumuzda müzik, çevre elemanları, 
+-**Oynama isteği**: Bu duygunun yaratılması için oyunumuzda müzik, çevre elemanları, renk paleti görsel ui efektleri kullanıldı. Oynama arzusu artması için kllanıcıya özel PlayerPref atandı.
 
+- **Pazara uygun, talep görebilecek oyun**: Pazarda genelde talep gören oyunlar "idle arcade" ve "hyper-casual platformer" oyunlar revaçtadır. Biz de bu durumdan dolayı 3D hyper casual platformer yapmaya karar verdik.
+- https://user-images.githubusercontent.com/95375876/172234075-8555aa15-7459-4631-aad3-4d8b55b4b560.png)
+
+- **Teknoloji, performans, kod kalitesi:** Unity'nin son sürümü ve Dashboard'da mediation teknolojosini kullandık. Kullanıcı davranışları ve istatistikleri için Playfab kullanıldık. Özellikle fonksiyonlar oluşturmaya ve performans açısından mobil platformlara uygun olmasına özen gösterildi.
+
+- **Kullanıcı dostu, kolay oynanabilir:** Hyper-casual'ın ana bileşenlerinden olan kolay oynanabilme ögelerine oyunumzda oldukça fazla yer verildi. Ana mekaniklerden birisi "Drag to Play"dir.![drag2play](https://user-images.githubusercontent.com/95375876/172236753-bb4e5054-b705-4008-b995-2daa800846c7.gif)
 
 
 
