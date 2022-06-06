@@ -23,6 +23,7 @@
 ## Ürün Özellikleri
 
 - Aranan kriterleri karşılaması için tüm özelliklerinin modüler ve geliştirilebilir olmasına karar verilmiştir. Bir platform üzerinde sürekli eriyen, hareket eden ve hayatına devam etmeye çalışan bir sörf tahtası yönetilmektedir. Toplanabilir öğeler, engeller ve temel bir yaşam mekaniği barındırmaktadır. Mobil cihazlar için tasarlanmaktadır.
+- Architectural diagram https://app.diagrams.net/?src=about#G1JxrfIbPBRXZ58ulgVnbSQvYUR8Ri43XH
 
 ## Hedef Kitle
 
@@ -176,8 +177,9 @@
 - https://docs.google.com/spreadsheets/d/1o6hUWWDCI07sdLipRyJoQLjlxTcOsIXLYd04Qn0yL2w/edit?usp=sharing
 
 ---
+
 ---
 ======= 
 # Bootcamp40
 
-Architectural diagram https://app.diagrams.net/?src=about#G1JxrfIbPBRXZ58ulgVnbSQvYUR8Ri43XH
+
