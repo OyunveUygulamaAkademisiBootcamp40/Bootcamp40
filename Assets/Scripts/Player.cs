@@ -16,8 +16,6 @@ public class Player : FreezingProgress
     [SerializeField] private float ZAxisMovementFactor = 5f;
 
     public static float decreasingProgressFactorInTime = 1.0f;
-    
-    InputManager inputManager = new InputManager();
 
     public static bool isFrostEffectActive = false;
     public static bool isFlameEffectActive = false;
@@ -33,7 +31,7 @@ public class Player : FreezingProgress
 
     private void Start()
     {
-        if (SceneManager.playerLevel==1)
+        if (SceneManager.playerLevel==0)
         {
             _tutorialManger.SetActive(true);
         }

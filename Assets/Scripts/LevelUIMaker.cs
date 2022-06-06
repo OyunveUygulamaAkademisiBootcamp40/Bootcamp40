@@ -12,8 +12,18 @@ public class LevelUIMaker : MonoBehaviour
     void Start()
     {
         playerLevel = SceneManager.playerLevel;
-        LevelUIStartText.text  = playerLevel.ToString();
-        LevelUIEndText.text = (playerLevel + 1).ToString();
+        if (playerLevel != 0)
+        {
+            LevelUIStartText.text  = playerLevel.ToString();
+            LevelUIEndText.text = (playerLevel + 1).ToString();
+        }
+        else
+        {
+            LevelUIStartText.text = "";
+            LevelUIEndText.text = (playerLevel + 1).ToString();
+        }
+
+        
     }
 
 }

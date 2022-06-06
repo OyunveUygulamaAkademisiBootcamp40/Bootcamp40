@@ -6,9 +6,7 @@ public class LevelProgressUI : MonoBehaviour
 {
     [Header("UI references :")]
     [SerializeField] private Image uiFillImage;
-    [SerializeField] private Text uiStartText;
-    [SerializeField] private Text uiEndText;
-
+ 
     [Header("Player & Endline references :")]
     [SerializeField] private Transform playerTransform;
     [SerializeField] private Transform endLineTransform;
@@ -21,12 +19,7 @@ public class LevelProgressUI : MonoBehaviour
     {
         endLinePosition = endLineTransform.position;
         fullDistance = GetDistance();
-    }
-
-    public void SetLevelTexts(int level)
-    {
-        uiStartText.text = level.ToString();
-        uiEndText.text = (level + 1).ToString();
+        uiFillImage.fillAmount = 0.25f;
     }
 
     private float GetDistance()
@@ -36,7 +29,7 @@ public class LevelProgressUI : MonoBehaviour
 
     private void UpdateProgressFill(float value)
     {
-        uiFillImage.fillAmount = value;
+        uiFillImage.fillAmount = value * 0.75f + 0.25f;
     }
 
     private void Update()
@@ -44,7 +37,7 @@ public class LevelProgressUI : MonoBehaviour
         if (playerTransform.position.z <= endLinePosition.z)
         {
             float newDistance = GetDistance();
-            float progressValue = Mathf.InverseLerp(fullDistance, 0f, newDistance);
+            float progressValue = Mathf.InverseLerp(fullDistance + 100f  , 0f, newDistance);
 
             UpdateProgressFill(progressValue);
         }

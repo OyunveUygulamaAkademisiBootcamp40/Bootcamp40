@@ -8,6 +8,7 @@ public class SceneManager : MonoBehaviour
     private void Awake()
     {
         preventScreenFlip();
+        playerLevel = PlayerPrefs.GetInt("PlayerLevel");
     }
 
     public void OtherScene()
@@ -19,11 +20,13 @@ public class SceneManager : MonoBehaviour
             UnitySceneManager.LoadScene(0);
         }
         else
-        {
+        {   
+            
             UnitySceneManager.LoadScene(UnitySceneManager.GetActiveScene().buildIndex + 1);
         }
 
         playerLevel++;
+        PlayerPrefs.SetInt("PlayerLevel", playerLevel);
     }
     public void RetryScene()
     {
