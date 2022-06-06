@@ -23949,6 +23949,16 @@ PrefabInstance:
       propertyPath: cameraController
       value: 
       objectReference: {fileID: 5718718834667095342}
+    - target: {fileID: 5718718834684815931, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718718834839268321, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 5718718834891432696, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -24282,7 +24292,7 @@ PrefabInstance:
     - target: {fileID: 8783876529539748153, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
       propertyPath: XAxisMovementFactor
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9014299832203538871, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
