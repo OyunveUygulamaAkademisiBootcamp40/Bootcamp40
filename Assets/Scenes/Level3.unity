@@ -19191,6 +19191,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5718718834667095349}
+        m_TargetAssemblyTypeName: ADsManager, Assembly-CSharp
+        m_MethodName: onClickRewarded
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &369336303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96586,6 +96598,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -100.48
       objectReference: {fileID: 0}
+    - target: {fileID: 1819513657, guid: 59630935eca99b54c9a8f43c17906d65, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819513657, guid: 59630935eca99b54c9a8f43c17906d65, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819513657, guid: 59630935eca99b54c9a8f43c17906d65, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 5718718834667095349}
+    - target: {fileID: 1819513657, guid: 59630935eca99b54c9a8f43c17906d65, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819513657, guid: 59630935eca99b54c9a8f43c17906d65, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: onClickRewarded
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819513657, guid: 59630935eca99b54c9a8f43c17906d65, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ADsManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819513657, guid: 59630935eca99b54c9a8f43c17906d65, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 300699141176954808, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
       propertyPath: audioSource
@@ -97219,5 +97259,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7ed8236911155442a37e3b5e756906b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5718718834667095349 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1709462487406995618, guid: 59630935eca99b54c9a8f43c17906d65,
+    type: 3}
+  m_PrefabInstance: {fileID: 5718718834667095338}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5718718834667095345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9cc0f384f537945b073cec6d4fbe5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
