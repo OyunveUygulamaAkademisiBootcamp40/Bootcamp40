@@ -220,8 +220,12 @@
 ---
 ## GELECEK GÜNCELLEMELER
 
+- Demo için 3 adet scene üzerinden levellar tasarlanmıştır. Bunun yerine gelecek ilk güncellemede tek scene olup level component'lar level bittikçe instantiate edilecektir. Böylece 1 scene üzerinden sonsuz döngü oyun tecrübesi kazanılacaktır.
+- Oyuna Coin ile satın alınabilecek yeni surfboardlar eklenecektir. Eklenen surfboardlar'ın x2 hız, x2 yavaş erime bonusu gibi kendine özgü özellikleri bulunacaktır.
+- Optimizasyon görevleri zamana yayılacak düzenli olarak yinelenecektir.
+- Monetization için satın alınabilir ögeler(coin, karakter, karakter aksesuarları vb.) eklenecektir.
+- Oyun arayüzüne yeni özelliklerle birlikte kullanıcıların online yarışma özelliği getirilecektir.
 ---
-======= 
-# Bootcamp40
-
-
+# Bootcamp40 - WH-40 
+-- 1.0.1'DE GÖRÜŞMEK ÜZERE!
+-Alperen Dirik,Barış Demirkap, Elif Hazinedar, Mustafa Özger ve Sefa Şahin...
