@@ -15,22 +15,22 @@ public class SceneManager : MonoBehaviour
 
     public void OtherScene()
     {
-        playerLevel++;
-        PlayerPrefs.SetInt("PlayerLevel", playerLevel);
-        PlayerPrefs.SetInt("TotalScore", TotalScore._totalScore);
-        
-        if (playerLevel % 2 == 0)
-        {
-            UnitySceneManager.LoadScene(1);
-        }
-        else if(playerLevel % 3 == 0)
-        {
-            UnitySceneManager.LoadScene(2);
-        }
-        else
+        if ((playerLevel) % 3 == 0)
         {
             UnitySceneManager.LoadScene(0);
         }
+        else if((playerLevel) % 3 == 1)
+        {
+            UnitySceneManager.LoadScene(1);
+        }
+        else if ((playerLevel) % 3 == 2)
+        {
+            UnitySceneManager.LoadScene(2);
+        }
+        
+        playerLevel++;
+        PlayerPrefs.SetInt("PlayerLevel", playerLevel);
+        PlayerPrefs.SetInt("TotalScore", TotalScore._totalScore);
     }
     public void RetryScene()
     {
