@@ -15,15 +15,15 @@ public class SceneManager : MonoBehaviour
 
     public void OtherScene()
     {
-        if ((playerLevel) % 3 == 0)
+        if ((playerLevel + 1) % 3 == 0)
         {
             UnitySceneManager.LoadScene(0);
         }
-        else if((playerLevel) % 3 == 1)
+        else if((playerLevel + 1) % 3 == 1)
         {
             UnitySceneManager.LoadScene(1);
         }
-        else if ((playerLevel) % 3 == 2)
+        else if ((playerLevel + 1) % 3 == 2)
         {
             UnitySceneManager.LoadScene(2);
         }
