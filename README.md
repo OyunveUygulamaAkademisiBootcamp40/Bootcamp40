@@ -177,6 +177,11 @@
 - https://docs.google.com/spreadsheets/d/1o6hUWWDCI07sdLipRyJoQLjlxTcOsIXLYd04Qn0yL2w/edit?usp=sharing
 
 ---
+## ÜRÜN VE ÖZELLİKLERİ
+
+
+---
+## GELECEK GÜNCELLEMELER
 
 ---
 ======= 
