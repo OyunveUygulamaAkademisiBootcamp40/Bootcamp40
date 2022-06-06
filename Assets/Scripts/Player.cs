@@ -15,7 +15,7 @@ public class Player : FreezingProgress
     [SerializeField] private float XAxisMovementFactor = 5f;
     [SerializeField] private float ZAxisMovementFactor = 5f;
 
-    public static float decreasingProgressFactorInTime = 1.0f;
+    public static float decreasingProgressFactorInTime = 1.5f;
 
     public static bool isFrostEffectActive = false;
     public static bool isFlameEffectActive = false;
@@ -149,17 +149,17 @@ public class Player : FreezingProgress
         }
         else if (other.tag == "SnowFlake")
         {
-            progress += 300.0f;
+            progress += 200.0f;
         }
         else if (other.tag == "SnowCanon")
         {
             FindObjectOfType<AudioManager>().Play("snowCannonSound");
-            progress += 500.0f;
+            progress += 300.0f;
         }
         else if (other.tag == "FlameCannon")
         {
             FindObjectOfType<AudioManager>().Play("flameCannonSound");
-            progress -= 300.0f;
+            progress -= 200.0f;
         }
         else if (other.tag == "Lava")
         {
