@@ -14,7 +14,7 @@
 
 ## Ürün İsmi
 
---ICY SURF 3D--
+--**ICY SURF 3D**-
 
 ## Ürün Açıklaması
 
@@ -179,13 +179,13 @@
 ---
 ## ÜRÜN ve KRİTERLER
 - **Yarışmaya hazır çalışan bir proje**: Oyun sonsuza kadar devam edebilecek şekilde, levellar initialize edilebilecek şekilde modüler geliştirilmiştir. Başlangıcı vardır. Kazanma ve kaybetme state'leri bulunmaktadır. 
-- 
+
 - **Özgünlük**: Oyunun genel mekaniği olan erime & buharlaşma durumu ile başka hiç bir oyunda karşılaşılmamış olup. Fikir tüm takım üyelerinin 2 günlük toplantısı sonucu masaya konmuştur. Geliştirilirken ufak çaplı olumlu değişiklikler yapılmış ve başarıyla projeye entegre edilmiştir.
-- 
+
 - **Görsel bütünlük / Renk seçimleri**: ![image](https://user-images.githubusercontent.com/95375876/172207710-d6863b8f-911c-4a00-a878-bb6f801da8e1.png)
--
+
 - **Ürün tamamlanma**: Oyun, oynamaya hazırdır. bir başlangıcı ve sonu vardır. Sınırsız bir şekilde oynamaya yöneliktir. Board'daki sprint tasklerinin hepsi tamamlanmıştır.
-- 
+
 
 
 
