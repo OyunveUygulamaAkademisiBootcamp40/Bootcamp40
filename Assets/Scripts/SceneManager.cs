@@ -15,11 +15,15 @@ public class SceneManager : MonoBehaviour
 
     public void OtherScene()
     {
-        if (playerLevel % 1 == 0)
+        playerLevel++;
+        PlayerPrefs.SetInt("PlayerLevel", playerLevel);
+        PlayerPrefs.SetInt("TotalScore", TotalScore._totalScore);
+        
+        if (playerLevel % 2 == 0)
         {
             UnitySceneManager.LoadScene(1);
         }
-        else if(playerLevel % 2 == 0)
+        else if(playerLevel % 3 == 0)
         {
             UnitySceneManager.LoadScene(2);
         }
@@ -27,9 +31,6 @@ public class SceneManager : MonoBehaviour
         {
             UnitySceneManager.LoadScene(0);
         }
-        PlayerPrefs.SetInt("TotalScore", TotalScore._totalScore);
-        playerLevel++;
-        PlayerPrefs.SetInt("PlayerLevel", playerLevel);
     }
     public void RetryScene()
     {
