@@ -13,7 +13,7 @@ public class DefeatScene : MonoBehaviour
 
     void Start()
     {
-        whichLevel = SceneManager.whichLevel;
+        whichLevel = SceneManager.playerLevel;
         DefeatSceneIsActive = false;
         filler.GetComponent<Image>();
     }

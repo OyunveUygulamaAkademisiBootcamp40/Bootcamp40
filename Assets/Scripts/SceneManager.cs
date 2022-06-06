@@ -3,16 +3,8 @@ using UnityEngine;
 using UnitySceneManager = UnityEngine.SceneManagement.SceneManager;
 
 public class SceneManager : MonoBehaviour
-{
-    public static int whichLevel;
-
-
-    public static void GetWhichLevel()
-    {
-        whichLevel = UnitySceneManager.GetActiveScene().buildIndex;
-    }
-    public static int playerLevel = 1;
-
+{   public static int playerLevel = 1;
+    
     private void Awake()
     {
         preventScreenFlip();
