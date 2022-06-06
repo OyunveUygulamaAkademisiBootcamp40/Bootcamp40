@@ -18,7 +18,7 @@
 
 ## Ürün Açıklaması
 
-- Mobil 3D hyper-casual bir oyundur. Oyun üzerinde kontrol ettiğimiz buzan bir sörf tahtası yer almaktadı. Sörf tahtamız zamana bağlı olarak erimektedir. Süre bitmeden bitiş çizgisini geçmek gerekmektedir. Level içerisinde buz tahtasını eriten flame throwerlar, lav çukurları bulunmaktadır. Aynı zamanda tahtamızı yeniden donduran kar parçaları ve ice throwerlar bulunmaktadır.
+- Mobil 3D hyper-casual bir oyundur. Oyun üzerinde kontrol ettiğimiz buzan bir sörf tahtası yer almaktadır. Sörf tahtamız zamana bağlı olarak erimektedir. Süre bitmeden bitiş çizgisini geçmek gerekmektedir. Level içerisinde buz tahtasını eriten flame throwerlar, lav çukurları bulunmaktadır. Aynı zamanda tahtamızı yeniden donduran kar parçaları ve ice throwerlar bulunmaktadır.
 
 ## Ürün Özellikleri
 
