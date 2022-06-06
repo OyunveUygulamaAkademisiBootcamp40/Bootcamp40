@@ -9,6 +9,7 @@ public class SceneManager : MonoBehaviour
     {
         preventScreenFlip();
         playerLevel = PlayerPrefs.GetInt("PlayerLevel");
+        TotalScore._totalScore = PlayerPrefs.GetInt("TotalScore");
     }
 
     public void OtherScene()
@@ -24,7 +25,7 @@ public class SceneManager : MonoBehaviour
             
             UnitySceneManager.LoadScene(UnitySceneManager.GetActiveScene().buildIndex + 1);
         }
-
+        PlayerPrefs.SetInt("TotalScore", TotalScore._totalScore);
         playerLevel++;
         PlayerPrefs.SetInt("PlayerLevel", playerLevel);
     }
