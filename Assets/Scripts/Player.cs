@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 
 
-public class Player : ProgressController
+public class Player : FreezingProgress
 {
     public GameObject meltingParticle;
     public GameObject _tutorialManger;

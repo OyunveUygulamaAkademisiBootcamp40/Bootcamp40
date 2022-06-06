@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,7 +5,7 @@ using UnityEngine.Analytics;
 
 public class DefeatScene : MonoBehaviour
 {
-    public bool DefeatSceneIsActive = false;
+    public bool DefeatSceneIsActive;
     public GameObject defeatScene;
     [SerializeField] public Image filler;
     public int whichLevel;

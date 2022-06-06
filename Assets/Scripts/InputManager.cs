@@ -1,18 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class InputManager
 {
     private static float mouseFirstPositionX;
     private float difference;
-
-    public float getInput()
-    {   
-        setOrigin();
-        return getDifferencefromNewPositiontoOldPosition();
-    }
-
+    
     private void setOrigin()
     {   
         if (Input.GetMouseButtonDown(0))
