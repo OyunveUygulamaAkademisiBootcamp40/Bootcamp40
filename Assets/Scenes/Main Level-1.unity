@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2685308, g: 0.46447867, b: 0.61467874, a: 1}
+  m_IndirectSpecularColor: {r: 0.26854548, g: 0.4644934, b: 0.6146665, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1044,7 +1044,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1318428571
 GameObject:
@@ -1281,7 +1281,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 902fa94750782334592e2327117df1f3,
         type: 3}
@@ -3260,6 +3260,11 @@ PrefabInstance:
       propertyPath: scoreCounter
       value: 
       objectReference: {fileID: 1805339862}
+    - target: {fileID: 5718718834578600062, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 5718718834667095342}
     - target: {fileID: 5718718834891432696, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -3355,6 +3360,21 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 5718718834667095341}
+    - target: {fileID: 5718718835602486515, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: zoom
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718718835602486515, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718718835602486515, guid: 59630935eca99b54c9a8f43c17906d65,
+        type: 3}
+      propertyPath: isZoomed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5718718835602486515, guid: 59630935eca99b54c9a8f43c17906d65,
         type: 3}
       propertyPath: cameraZoom
@@ -3652,6 +3672,18 @@ Camera:
     type: 3}
   m_PrefabInstance: {fileID: 5718718834667095338}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5718718834667095342 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5718718835602486515, guid: 59630935eca99b54c9a8f43c17906d65,
+    type: 3}
+  m_PrefabInstance: {fileID: 5718718834667095338}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669645855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ed8236911155442a37e3b5e756906b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5781308972778960880
 PrefabInstance:
   m_ObjectHideFlags: 0

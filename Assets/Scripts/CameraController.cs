@@ -9,27 +9,26 @@ public class CameraController : MonoBehaviour
 
     [SerializeField] public float FollowingDistance = 10.0f;
 
-    public CameraZoom cameraZoom;
+    
     public Camera cam;
+    [SerializeField] public int zoom = 10;
+    [SerializeField] public float smooth = 5;
+
+    public bool isZoomed = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        cameraZoom.GetComponent<CameraZoom>();
-    transform.position = new Vector3(transform.position.x,transform.position.y ,FollowingObject.transform.position.z - FollowingDistance);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        
+        transform.position = new Vector3(transform.position.x,transform.position.y ,FollowingObject.transform.position.z - FollowingDistance);
     }
 
     private void LateUpdate()
     {
-        if (cameraZoom.isZoomed==true)
+        if (isZoomed==true)
         {
-            cam.fieldOfView= Mathf.Lerp(cam.fieldOfView, cameraZoom.zoom, Time.deltaTime * cameraZoom.smooth);
+            cam.fieldOfView= Mathf.Lerp(cam.fieldOfView, zoom, Time.deltaTime * smooth);
         }
-        transform.position = new Vector3( transform.position.x, transform.position.y,FollowingObject.transform.position.z - FollowingDistance);
+     transform.position = new Vector3( transform.position.x, transform.position.y,FollowingObject.transform.position.z - FollowingDistance);
     }
 }
