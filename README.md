@@ -197,7 +197,23 @@
 
 - **Teknoloji, performans, kod kalitesi:** Unity'nin son sürümü ve Dashboard'da mediation teknolojosini kullandık. Kullanıcı davranışları ve istatistikleri için Playfab kullanıldık. Özellikle fonksiyonlar oluşturmaya ve performans açısından mobil platformlara uygun olmasına özen gösterildi.
 
-- **Kullanıcı dostu, kolay oynanabilir:** Hyper-casual'ın ana bileşenlerinden olan kolay oynanabilme ögelerine oyunumzda oldukça fazla yer verildi. Ana mekaniklerden birisi "Drag to Play"dir.![drag2play](https://user-images.githubusercontent.com/95375876/172236753-bb4e5054-b705-4008-b995-2daa800846c7.gif)
+- **Kullanıcı dostu, kolay oynanabilir:** Hyper-casual'ın ana bileşenlerinden olan kolay oynanabilme ögelerine oyunumzda oldukça fazla yer verildi. Ana mekaniklerden birisi "Drag to Play"dir.
+- ![drag2play](https://user-images.githubusercontent.com/95375876/172236753-bb4e5054-b705-4008-b995-2daa800846c7.gif)
+
+- **Oyun 3D:** ![image](https://user-images.githubusercontent.com/95375876/172237154-b033b575-5190-4f50-afce-cbf9bc8a0cd9.png)
+
+- **Internet üzerinden API ile veya bir sunucu ile etkileşime geçiyor:** ![image](https://user-images.githubusercontent.com/95375876/172237504-fb000cc0-df16-4841-8e68-ca77e3718bf9.png)
+
+- **Oyuncuların davranışlarını izleyip raporlayacak teknolojiye sahip (Firebase analytics, gameanalytics vb.):** 
+- ![image](https://user-images.githubusercontent.com/95375876/172238114-a51954c4-7587-4190-90d8-2fa7f38d5875.png)
+- **Oyunun ticarileştirme mekaniği doğru uygulanmış (test reklamları kullanılabilir) :** 
+- ![image](https://user-images.githubusercontent.com/95375876/172238249-6d83e9a6-a51f-485b-8d15-fbf9e32318a7.png)
+- ![admanager](https://user-images.githubusercontent.com/95375876/172238837-14b72004-9e0b-4da5-b765-7979ccdf6090.gif)
+
+-**Oyun boyut uygunluğuna dikkat edilmiş:** Assetler ve materyaller özellikle dikkatli kullanılmış olup level'da performans sorunlarını engellemeye özen gösterilmiştir. Bunun için oyunculara FPS gösterilmiştir. Ana proje boyutunda bile optimizasyona gidilmiştir.
+- ![image](https://user-images.githubusercontent.com/95375876/172239187-1058fe08-2934-4bb9-bf3f-bbf05fbef2eb.png)
+- ![image](https://user-images.githubusercontent.com/95375876/172239489-ee6db51a-e0b5-44ea-9df6-c3cbc86e0b34.png)
+
 
 
 
