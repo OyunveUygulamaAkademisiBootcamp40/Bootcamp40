@@ -147,6 +147,10 @@
 ![image](https://user-images.githubusercontent.com/95375876/172020702-f74dbd4a-c6b2-491f-88b1-6f4829a9bee2.png)
 ![image](https://user-images.githubusercontent.com/95375876/172020709-46145f44-f54e-41a4-ab36-57aa02892d4e.png)
 ![image](https://user-images.githubusercontent.com/95375876/172020957-9f4884e7-0d2b-4db0-8e8c-8594cf45a318.png)
+![image](https://user-images.githubusercontent.com/95375876/172226581-e4084774-5274-46c9-b904-00d325a4500d.png)
+![image](https://user-images.githubusercontent.com/95375876/172226632-73547347-7b39-4c0f-a281-0a4810bbcd17.png)
+![image](https://user-images.githubusercontent.com/95375876/172226697-3ddc35e9-fedc-4636-baed-fe9b5571ad3a.png)
+
 
 
 
@@ -185,6 +189,8 @@
 - **Görsel bütünlük / Renk seçimleri**: ![image](https://user-images.githubusercontent.com/95375876/172207710-d6863b8f-911c-4a00-a878-bb6f801da8e1.png)
 
 - **Ürün tamamlanma**: Oyun, oynamaya hazırdır. bir başlangıcı ve sonu vardır. Sınırsız bir şekilde oynamaya yöneliktir. Board'daki sprint tasklerinin hepsi tamamlanmıştır.
+
+-**Oynama isteği**: Bu duygunun yaratılması için oyunumuzda müzik, çevre elemanları, 
 
 
 
